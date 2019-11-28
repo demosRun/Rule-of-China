@@ -8,7 +8,7 @@ module.exports = {
   // 输出目录
   outFolder: "./dist",
   // 手机入口
-  phoneEnter: "loading",
+  // phoneEnter: "loading",
   // 资源目录
   resourceFolder: "./src/resource",
   // head属性清单
@@ -118,7 +118,23 @@ module.exports = {
   pageList: [
     {
       name: 'one',
-      src: './src/page/one.page'
+      src: './src/page/one.owo'
+    },
+    {
+      name: 'two',
+      src: './src/page/two.owo'
+    },
+    {
+      name: 'three',
+      src: './src/page/three.owo'
+    },
+    {
+      name: 'four',
+      src: './src/page/four.owo'
+    },
+    {
+      name: 'five',
+      src: './src/page/five.owo'
     }
   ],
   // 调试模式配置

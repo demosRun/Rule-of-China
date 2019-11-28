@@ -1,0 +1,1612 @@
+[2019-11-28T16:21:48.047] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:21:48.049] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:21:48.049] [INFO] default - 首次启动!
+[2019-11-28T16:21:48.049] [INFO] default - 生成版本号: gswzsxeeffd
+[2019-11-28T16:21:48.056] [INFO] default - 清理资源文件夹: D:\work\中国之治\dist\static
+[2019-11-28T16:21:48.056] [INFO] default - 文件夹不存在: D:\work\中国之治\dist\static
+[2019-11-28T16:21:48.056] [INFO] default - 创建文件夹: D:\work\中国之治\dist\static
+[2019-11-28T16:21:48.057] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:21:48.057] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:21:48.057] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:21:48.058] [INFO] default - 开始处理模块: one
+[2019-11-28T16:21:48.404] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:21:48.444] [DEBUG] default - 页面one处理用时: 387 毫秒!
+[2019-11-28T16:21:48.446] [INFO] default - 文件夹不存在: D:/work/中国之治/dist/static/resource
+[2019-11-28T16:21:48.446] [INFO] default - 创建文件夹: D:/work/中国之治/dist/static/resource
+[2019-11-28T16:21:48.447] [DEBUG] default - 处理资源:  [ 'D:/work/中国之治/src/resource/one-4-5.png' ]
+[2019-11-28T16:21:48.447] [DEBUG] default - 资源目录:  D:/work/中国之治/dist/static/resource
+[2019-11-28T16:21:48.449] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:21:48.910] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:21:48.950] [INFO] default - 文件夹不存在: D:\work\中国之治\dist\static\css
+[2019-11-28T16:21:48.950] [INFO] default - 创建文件夹: D:\work\中国之治\dist\static\css
+[2019-11-28T16:21:48.950] [INFO] default - 开始处理附属css中的资源
+[2019-11-28T16:21:48.950] [INFO] default - 附属css中的资源处理完毕!
+[2019-11-28T16:21:48.951] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.css
+[2019-11-28T16:21:48.951] [INFO] default - 附属css中的资源不需要处理!
+[2019-11-28T16:21:48.951] [INFO] default - 处理字体: {}
+[2019-11-28T16:21:49.075] [INFO] default - 使用postcss处理完毕! 用时: 165 毫秒
+[2019-11-28T16:21:49.075] [INFO] default - 正在处理script!
+[2019-11-28T16:21:49.076] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:21:49.644] [INFO] default - 工程中只有一个页面!
+[2019-11-28T16:21:49.644] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:21:49.645] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:21:49.645] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:21:49.645] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:21:49.645] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:21:49.645] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:21:49.645] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:21:49.645] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:21:49.645] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:21:49.645] [DEBUG] default - 输出scriptData
+[2019-11-28T16:21:49.646] [DEBUG] default - 准备输出html!
+[2019-11-28T16:21:49.646] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:21:49.646] [DEBUG] default - 处理资源:  [ 'D:/work/中国之治/src/resource/one-4-2.png',
+  'D:/work/中国之治/src/resource/one-4-0.png',
+  'D:/work/中国之治/src/resource/one-4-4.png',
+  'D:/work/中国之治/src/resource/one-4-1.png',
+  'D:/work/中国之治/src/resource/one-4-3.png' ]
+[2019-11-28T16:21:49.647] [DEBUG] default - 资源目录:  D:/work/中国之治/dist/static/resource
+[2019-11-28T16:21:49.648] [INFO] default - 文件夹不存在: D:\work\中国之治\dist\static\js
+[2019-11-28T16:21:49.648] [INFO] default - 创建文件夹: D:\work\中国之治\dist\static\js
+[2019-11-28T16:21:49.648] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-28T16:21:49.649] [INFO] default - 编译结束!
+[2019-11-28T16:21:49.650] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:21:49.662] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:21:49.663] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:21:49.663] [INFO] default - 读取成功: D:\work\中国之治\src\main.css
+[2019-11-28T16:21:49.663] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:21:49.666] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.css
+[2019-11-28T16:21:49.687] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\main.css
+[2019-11-28T16:21:49.688] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:21:49.689] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\swiper4.5.0.css
+[2019-11-28T16:21:49.700] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:21:49.701] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:21:53.303] [INFO] default - file change: D:\work\中国之治\src\page\one.owo
+[2019-11-28T16:21:53.303] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:21:53.303] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:21:53.303] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\one.owo
+[2019-11-28T16:21:53.303] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:21:53.303] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:21:53.304] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:21:53.304] [INFO] default - 开始处理模块: one
+[2019-11-28T16:21:53.322] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:21:53.325] [DEBUG] default - 页面one处理用时: 21 毫秒!
+[2019-11-28T16:21:53.325] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:21:53.325] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:21:53.325] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:21:53.328] [INFO] default - 处理字体: {}
+[2019-11-28T16:21:53.329] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T16:21:53.329] [INFO] default - 正在处理script!
+[2019-11-28T16:21:53.330] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:21:53.339] [INFO] default - 工程中只有一个页面!
+[2019-11-28T16:21:53.339] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:21:53.339] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:21:53.339] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:21:53.339] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:21:53.339] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:21:53.339] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:21:53.339] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:21:53.343] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:21:53.343] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:21:53.343] [DEBUG] default - 输出scriptData
+[2019-11-28T16:21:53.343] [DEBUG] default - 准备输出html!
+[2019-11-28T16:21:53.344] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:21:53.344] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:21:53.344] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:21:53.344] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:21:53.344] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:21:53.345] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-28T16:21:53.345] [INFO] default - 编译结束!
+[2019-11-28T16:21:53.346] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:21:53.347] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:21:53.347] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:21:53.347] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:21:53.347] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:21:53.348] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:21:53.349] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:22:17.459] [INFO] default - file change: D:\work\中国之治\src\main.css
+[2019-11-28T16:22:17.459] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:22:17.459] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:22:17.459] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\main.css
+[2019-11-28T16:22:17.459] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:22:17.459] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:22:17.460] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:22:17.460] [INFO] default - 开始处理模块: one
+[2019-11-28T16:22:17.473] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:22:17.476] [DEBUG] default - 页面one处理用时: 16 毫秒!
+[2019-11-28T16:22:17.477] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:22:17.477] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:22:17.477] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:22:17.479] [INFO] default - 开始处理附属css中的资源
+[2019-11-28T16:22:17.479] [INFO] default - 附属css中的资源处理完毕!
+[2019-11-28T16:22:17.480] [INFO] default - 处理字体: {}
+[2019-11-28T16:22:17.481] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T16:22:17.481] [INFO] default - 正在处理script!
+[2019-11-28T16:22:17.482] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:22:17.492] [INFO] default - 工程中只有一个页面!
+[2019-11-28T16:22:17.492] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:22:17.493] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:22:17.493] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:22:17.493] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:22:17.493] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:22:17.493] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:22:17.493] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:22:17.493] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:22:17.493] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:22:17.493] [DEBUG] default - 输出scriptData
+[2019-11-28T16:22:17.493] [DEBUG] default - 准备输出html!
+[2019-11-28T16:22:17.493] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:22:17.493] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:22:17.493] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:22:17.494] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:22:17.494] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:22:17.495] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-28T16:22:17.496] [INFO] default - 编译结束!
+[2019-11-28T16:22:17.496] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:22:17.497] [INFO] default - 读取成功: D:\work\中国之治\src\main.css
+[2019-11-28T16:22:17.497] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:22:17.498] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:22:17.498] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:22:17.498] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\main.css
+[2019-11-28T16:22:17.498] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:22:17.499] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:22:17.500] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:23:08.644] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:23:08.644] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:23:08.644] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:23:08.644] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:23:08.644] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:23:08.644] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:23:08.644] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:23:08.645] [INFO] default - 开始处理模块: one
+[2019-11-28T16:23:08.662] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:23:08.665] [DEBUG] default - 页面one处理用时: 20 毫秒!
+[2019-11-28T16:23:08.665] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:23:08.665] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:23:08.665] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:23:08.667] [INFO] default - 处理字体: {}
+[2019-11-28T16:23:08.668] [INFO] default - 使用postcss处理完毕! 用时: 3 毫秒
+[2019-11-28T16:23:08.668] [INFO] default - 正在处理script!
+[2019-11-28T16:23:08.669] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:23:08.677] [INFO] default - 工程中只有一个页面!
+[2019-11-28T16:23:08.677] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:23:08.677] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:23:08.678] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:23:08.678] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:23:08.678] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:23:08.678] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:23:08.678] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:23:08.678] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:23:08.678] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:23:08.678] [DEBUG] default - 输出scriptData
+[2019-11-28T16:23:08.678] [DEBUG] default - 准备输出html!
+[2019-11-28T16:23:08.679] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:23:08.679] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:23:08.679] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:23:08.679] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:23:08.679] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:23:08.680] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-28T16:23:08.680] [INFO] default - 编译结束!
+[2019-11-28T16:23:08.681] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:23:08.682] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:23:08.682] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:23:08.682] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:23:08.683] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:23:08.683] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:23:08.684] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:27:17.955] [INFO] default - file change: owo.js
+[2019-11-28T16:27:17.956] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:27:17.956] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:27:17.956] [INFO] default - 刷新模式,变化目录: owo.js
+[2019-11-28T16:27:17.956] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:27:17.956] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:27:17.956] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:27:17.957] [INFO] default - 开始处理模块: one
+[2019-11-28T16:27:17.970] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:27:17.973] [DEBUG] default - 页面one处理用时: 16 毫秒!
+[2019-11-28T16:27:17.973] [INFO] default - 开始处理模块: two
+[2019-11-28T16:27:17.977] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:27:17.978] [DEBUG] default - 页面two处理用时: 4 毫秒!
+[2019-11-28T16:27:17.978] [INFO] default - 开始处理模块: three
+[2019-11-28T16:27:17.981] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:27:17.982] [DEBUG] default - 页面three处理用时: 4 毫秒!
+[2019-11-28T16:27:17.982] [INFO] default - 开始处理模块: four
+[2019-11-28T16:27:17.985] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:27:17.986] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T16:27:17.986] [INFO] default - 开始处理模块: five
+[2019-11-28T16:27:17.989] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:27:17.989] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T16:27:17.990] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:17.990] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:17.990] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:17.990] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:17.990] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:17.990] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:27:17.990] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:27:17.992] [INFO] default - 处理字体: {}
+[2019-11-28T16:27:17.993] [INFO] default - 使用postcss处理完毕! 用时: 3 毫秒
+[2019-11-28T16:27:17.993] [INFO] default - 正在处理script!
+[2019-11-28T16:27:17.994] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:27:18.004] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:27:18.030] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:27:18.031] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:27:18.031] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:27:18.031] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:27:18.031] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:27:18.031] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:27:18.031] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:27:18.031] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:27:18.031] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:27:18.031] [DEBUG] default - 输出scriptData
+[2019-11-28T16:27:18.031] [DEBUG] default - 准备输出html!
+[2019-11-28T16:27:18.032] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:27:18.032] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:27:18.032] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:27:18.032] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:27:18.032] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:27:18.033] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-28T16:27:18.033] [INFO] default - 编译结束!
+[2019-11-28T16:27:18.034] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:27:18.035] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:27:18.035] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:27:18.035] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:27:18.036] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:27:18.036] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:27:18.037] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:27:42.421] [INFO] default - file change: owo.js
+[2019-11-28T16:27:42.422] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:27:42.422] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:27:42.422] [INFO] default - 刷新模式,变化目录: owo.js
+[2019-11-28T16:27:42.422] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:27:42.422] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:27:42.423] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:27:42.423] [INFO] default - 开始处理模块: one
+[2019-11-28T16:27:42.436] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:27:42.439] [DEBUG] default - 页面one处理用时: 16 毫秒!
+[2019-11-28T16:27:42.439] [INFO] default - 开始处理模块: two
+[2019-11-28T16:27:42.442] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:27:42.443] [DEBUG] default - 页面two处理用时: 4 毫秒!
+[2019-11-28T16:27:42.443] [INFO] default - 开始处理模块: three
+[2019-11-28T16:27:42.447] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:27:42.448] [DEBUG] default - 页面three处理用时: 5 毫秒!
+[2019-11-28T16:27:42.448] [INFO] default - 开始处理模块: four
+[2019-11-28T16:27:42.451] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:27:42.451] [DEBUG] default - 页面four处理用时: 3 毫秒!
+[2019-11-28T16:27:42.452] [INFO] default - 开始处理模块: five
+[2019-11-28T16:27:42.454] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:27:42.455] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T16:27:42.455] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:42.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:42.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:42.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:42.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:27:42.456] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:27:42.456] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:27:42.457] [INFO] default - 处理字体: {}
+[2019-11-28T16:27:42.458] [INFO] default - 使用postcss处理完毕! 用时: 2 毫秒
+[2019-11-28T16:27:42.458] [INFO] default - 正在处理script!
+[2019-11-28T16:27:42.460] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:27:42.470] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:27:42.470] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:27:42.471] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:27:42.471] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:27:42.471] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:27:42.471] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:27:42.471] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:27:42.471] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:27:42.471] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:27:42.471] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:27:42.471] [DEBUG] default - 输出scriptData
+[2019-11-28T16:27:42.471] [DEBUG] default - 准备输出html!
+[2019-11-28T16:27:42.471] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:27:42.471] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:27:42.471] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:27:42.471] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:27:42.472] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:27:42.473] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-28T16:27:42.473] [INFO] default - 编译结束!
+[2019-11-28T16:27:42.475] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:27:42.476] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:27:42.476] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:27:42.476] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:27:42.477] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:27:42.478] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:27:42.479] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:29:46.384] [INFO] default - file change: D:\work\中国之治\src\page\one.owo
+[2019-11-28T16:29:46.384] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:29:46.384] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:29:46.384] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\one.owo
+[2019-11-28T16:29:46.384] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:29:46.384] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:29:46.384] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:29:46.385] [INFO] default - 开始处理模块: one
+[2019-11-28T16:29:46.395] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:29:46.397] [DEBUG] default - 页面one处理用时: 12 毫秒!
+[2019-11-28T16:29:46.397] [INFO] default - 开始处理模块: two
+[2019-11-28T16:29:46.401] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:29:46.401] [DEBUG] default - 页面two处理用时: 4 毫秒!
+[2019-11-28T16:29:46.402] [INFO] default - 开始处理模块: three
+[2019-11-28T16:29:46.404] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:29:46.405] [DEBUG] default - 页面three处理用时: 3 毫秒!
+[2019-11-28T16:29:46.406] [INFO] default - 开始处理模块: four
+[2019-11-28T16:29:46.409] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:29:46.409] [DEBUG] default - 页面four处理用时: 3 毫秒!
+[2019-11-28T16:29:46.409] [INFO] default - 开始处理模块: five
+[2019-11-28T16:29:46.412] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:29:46.413] [DEBUG] default - 页面five处理用时: 4 毫秒!
+[2019-11-28T16:29:46.413] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:46.413] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:46.413] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:46.413] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:46.413] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:46.414] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:29:46.414] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:29:46.416] [INFO] default - 处理字体: {}
+[2019-11-28T16:29:46.416] [INFO] default - 使用postcss处理完毕! 用时: 2 毫秒
+[2019-11-28T16:29:46.417] [INFO] default - 正在处理script!
+[2019-11-28T16:29:46.418] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:29:46.429] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:29:46.430] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:29:46.430] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:29:46.430] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:29:46.430] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:29:46.430] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:29:46.430] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:29:46.430] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:29:46.431] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:29:46.431] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:29:46.431] [DEBUG] default - 输出scriptData
+[2019-11-28T16:29:46.456] [DEBUG] default - 准备输出html!
+[2019-11-28T16:29:46.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:29:46.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:29:46.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:29:46.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:29:46.456] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:29:46.457] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:29:46.458] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:29:46.483] [INFO] default - 编译结束!
+[2019-11-28T16:29:46.484] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:29:46.484] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:29:46.484] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:29:46.484] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:29:46.485] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:29:46.485] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:29:46.486] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:29:52.778] [INFO] default - file change: D:\work\中国之治\src\page\one.owo
+[2019-11-28T16:29:52.778] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:29:52.778] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:29:52.778] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\one.owo
+[2019-11-28T16:29:52.778] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:29:52.778] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:29:52.778] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:29:52.779] [INFO] default - 开始处理模块: one
+[2019-11-28T16:29:52.787] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:29:52.790] [DEBUG] default - 页面one处理用时: 11 毫秒!
+[2019-11-28T16:29:52.790] [INFO] default - 开始处理模块: two
+[2019-11-28T16:29:52.793] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:29:52.794] [DEBUG] default - 页面two处理用时: 4 毫秒!
+[2019-11-28T16:29:52.794] [INFO] default - 开始处理模块: three
+[2019-11-28T16:29:52.797] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:29:52.797] [DEBUG] default - 页面three处理用时: 3 毫秒!
+[2019-11-28T16:29:52.797] [INFO] default - 开始处理模块: four
+[2019-11-28T16:29:52.801] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:29:52.802] [DEBUG] default - 页面four处理用时: 5 毫秒!
+[2019-11-28T16:29:52.802] [INFO] default - 开始处理模块: five
+[2019-11-28T16:29:52.805] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:29:52.805] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T16:29:52.806] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:52.806] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:52.806] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:52.806] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:52.806] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:29:52.806] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:29:52.806] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:29:52.809] [INFO] default - 处理字体: {}
+[2019-11-28T16:29:52.810] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T16:29:52.810] [INFO] default - 正在处理script!
+[2019-11-28T16:29:52.811] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:29:52.823] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:29:52.824] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:29:52.824] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:29:52.824] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:29:52.824] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:29:52.824] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:29:52.824] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:29:52.824] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:29:52.824] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:29:52.824] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:29:52.824] [DEBUG] default - 输出scriptData
+[2019-11-28T16:29:52.825] [DEBUG] default - 准备输出html!
+[2019-11-28T16:29:52.825] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:29:52.825] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:29:52.825] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:29:52.825] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:29:52.825] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:29:52.826] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:29:52.826] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:29:52.826] [INFO] default - 编译结束!
+[2019-11-28T16:29:52.827] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:29:52.828] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:29:52.828] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:29:52.828] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:29:52.829] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:29:52.836] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:29:52.838] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:48:59.841] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:48:59.843] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:48:59.843] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:48:59.843] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:48:59.843] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:48:59.844] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:48:59.844] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:48:59.846] [INFO] default - 开始处理模块: one
+[2019-11-28T16:49:00.032] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:49:00.077] [DEBUG] default - 页面one处理用时: 231 毫秒!
+[2019-11-28T16:49:00.077] [INFO] default - 开始处理模块: two
+[2019-11-28T16:49:00.370] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:49:00.412] [DEBUG] default - 页面two处理用时: 335 毫秒!
+[2019-11-28T16:49:00.413] [INFO] default - 开始处理模块: three
+[2019-11-28T16:49:00.417] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:49:00.421] [DEBUG] default - 页面three处理用时: 8 毫秒!
+[2019-11-28T16:49:00.421] [INFO] default - 开始处理模块: four
+[2019-11-28T16:49:00.425] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:49:00.425] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T16:49:00.425] [INFO] default - 开始处理模块: five
+[2019-11-28T16:49:00.429] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:49:00.429] [DEBUG] default - 页面five处理用时: 4 毫秒!
+[2019-11-28T16:49:00.445] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:00.445] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:00.445] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:00.445] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:00.445] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:00.445] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:49:00.445] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:49:00.499] [INFO] default - 处理字体: {}
+[2019-11-28T16:49:00.502] [INFO] default - 使用postcss处理完毕! 用时: 57 毫秒
+[2019-11-28T16:49:00.502] [INFO] default - 正在处理script!
+[2019-11-28T16:49:00.628] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:49:00.833] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:49:00.855] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:49:00.855] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:49:00.855] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:49:00.855] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:49:00.855] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:49:00.855] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:49:00.855] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:49:00.855] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:49:00.856] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:49:00.856] [DEBUG] default - 输出scriptData
+[2019-11-28T16:49:00.857] [DEBUG] default - 准备输出html!
+[2019-11-28T16:49:00.857] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:49:00.858] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:49:00.858] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:49:00.858] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:49:00.858] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:49:00.860] [DEBUG] default - 处理资源:  [ 'D:/work/中国之治/src/resource/two-3-9.png',
+  'D:/work/中国之治/src/resource/two-3-2.png',
+  'D:/work/中国之治/src/resource/two-3-1.png',
+  'D:/work/中国之治/src/resource/two-3-0.png',
+  'D:/work/中国之治/src/resource/two-3-8.png' ]
+[2019-11-28T16:49:00.861] [DEBUG] default - 资源目录:  D:/work/中国之治/dist/static/resource
+[2019-11-28T16:49:00.868] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:49:00.868] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:49:00.880] [INFO] default - 编译结束!
+[2019-11-28T16:49:00.944] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:49:00.952] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:49:01.219] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:49:01.219] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:49:01.220] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:49:01.220] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:49:01.221] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:49:53.795] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:49:53.795] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:49:53.795] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:49:53.795] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:49:53.795] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:49:53.796] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:49:53.796] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:49:53.796] [INFO] default - 开始处理模块: one
+[2019-11-28T16:49:53.828] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:49:53.831] [DEBUG] default - 页面one处理用时: 35 毫秒!
+[2019-11-28T16:49:53.831] [INFO] default - 开始处理模块: two
+[2019-11-28T16:49:53.843] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:49:53.848] [DEBUG] default - 页面two处理用时: 17 毫秒!
+[2019-11-28T16:49:53.848] [INFO] default - 开始处理模块: three
+[2019-11-28T16:49:53.852] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:49:53.852] [DEBUG] default - 页面three处理用时: 4 毫秒!
+[2019-11-28T16:49:53.852] [INFO] default - 开始处理模块: four
+[2019-11-28T16:49:53.855] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:49:53.856] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T16:49:53.863] [INFO] default - 开始处理模块: five
+[2019-11-28T16:49:53.866] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:49:53.866] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T16:49:53.867] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:53.867] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:53.867] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:53.867] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:53.867] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:49:53.867] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:49:53.867] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:49:53.870] [INFO] default - 处理字体: {}
+[2019-11-28T16:49:53.871] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T16:49:53.871] [INFO] default - 正在处理script!
+[2019-11-28T16:49:53.872] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:49:53.882] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:49:53.882] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:49:53.882] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:49:53.883] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:49:53.883] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:49:53.883] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:49:53.883] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:49:53.883] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:49:53.883] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:49:53.883] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:49:53.883] [DEBUG] default - 输出scriptData
+[2019-11-28T16:49:53.883] [DEBUG] default - 准备输出html!
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:49:53.884] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:49:53.885] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:49:53.885] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:49:53.885] [INFO] default - 编译结束!
+[2019-11-28T16:49:53.886] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:49:53.887] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:49:53.887] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:49:53.887] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:49:53.887] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:49:53.888] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:49:53.888] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:50:22.637] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:50:22.637] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:50:22.637] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:50:22.637] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:50:22.637] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:50:22.638] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:50:22.638] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:50:22.638] [INFO] default - 开始处理模块: one
+[2019-11-28T16:50:22.650] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:50:22.653] [DEBUG] default - 页面one处理用时: 15 毫秒!
+[2019-11-28T16:50:22.653] [INFO] default - 开始处理模块: two
+[2019-11-28T16:50:22.664] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:50:22.668] [DEBUG] default - 页面two处理用时: 15 毫秒!
+[2019-11-28T16:50:22.668] [INFO] default - 开始处理模块: three
+[2019-11-28T16:50:22.672] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:50:22.672] [DEBUG] default - 页面three处理用时: 4 毫秒!
+[2019-11-28T16:50:22.672] [INFO] default - 开始处理模块: four
+[2019-11-28T16:50:22.675] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:50:22.676] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T16:50:22.676] [INFO] default - 开始处理模块: five
+[2019-11-28T16:50:22.679] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:50:22.679] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T16:50:22.680] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:50:22.680] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:50:22.680] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:50:22.680] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:50:22.680] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:50:22.680] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:50:22.680] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:50:22.683] [INFO] default - 处理字体: {}
+[2019-11-28T16:50:22.684] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T16:50:22.684] [INFO] default - 正在处理script!
+[2019-11-28T16:50:22.685] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:50:22.697] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:50:22.698] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:50:22.698] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:50:22.698] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:50:22.698] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:50:22.698] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:50:22.698] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:50:22.698] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:50:22.698] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:50:22.698] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:50:22.698] [DEBUG] default - 输出scriptData
+[2019-11-28T16:50:22.699] [DEBUG] default - 准备输出html!
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:50:22.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:50:22.700] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:50:22.700] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:50:22.701] [INFO] default - 编译结束!
+[2019-11-28T16:50:22.701] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:50:22.702] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:50:22.703] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:50:22.703] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:50:22.704] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:50:22.713] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:50:22.716] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:51:00.730] [INFO] default - file change: D:\work\中国之治\src\page\three.owo
+[2019-11-28T16:51:00.730] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:51:00.730] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:51:00.730] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\three.owo
+[2019-11-28T16:51:00.730] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:51:00.730] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:51:00.730] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:51:00.730] [INFO] default - 开始处理模块: one
+[2019-11-28T16:51:00.743] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:51:00.746] [DEBUG] default - 页面one处理用时: 16 毫秒!
+[2019-11-28T16:51:00.746] [INFO] default - 开始处理模块: two
+[2019-11-28T16:51:00.759] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:51:00.764] [DEBUG] default - 页面two处理用时: 18 毫秒!
+[2019-11-28T16:51:00.764] [INFO] default - 开始处理模块: three
+[2019-11-28T16:51:00.769] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:51:00.770] [DEBUG] default - 页面three处理用时: 6 毫秒!
+[2019-11-28T16:51:00.770] [INFO] default - 开始处理模块: four
+[2019-11-28T16:51:00.775] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:51:00.775] [DEBUG] default - 页面four处理用时: 5 毫秒!
+[2019-11-28T16:51:00.775] [INFO] default - 开始处理模块: five
+[2019-11-28T16:51:00.778] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:51:00.779] [DEBUG] default - 页面five处理用时: 4 毫秒!
+[2019-11-28T16:51:00.779] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:00.779] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:51:00.779] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:00.779] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:00.779] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:00.779] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:51:00.779] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:51:00.783] [INFO] default - 处理字体: {}
+[2019-11-28T16:51:00.784] [INFO] default - 使用postcss处理完毕! 用时: 5 毫秒
+[2019-11-28T16:51:00.784] [INFO] default - 正在处理script!
+[2019-11-28T16:51:00.786] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:51:00.797] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:51:00.797] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:51:00.797] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:51:00.798] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:51:00.798] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:51:00.798] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:51:00.798] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:51:00.798] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:00.798] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:51:00.798] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:00.798] [DEBUG] default - 输出scriptData
+[2019-11-28T16:51:00.800] [DEBUG] default - 准备输出html!
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:51:00.800] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:51:00.801] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:51:00.802] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:51:00.803] [INFO] default - 编译结束!
+[2019-11-28T16:51:00.804] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:51:00.804] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:51:00.804] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:00.805] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:51:00.805] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:51:00.805] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:00.807] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:51:10.765] [INFO] default - file change: D:\work\中国之治\src\page\four.owo
+[2019-11-28T16:51:10.765] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:51:10.765] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:51:10.765] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\four.owo
+[2019-11-28T16:51:10.765] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:51:10.766] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:51:10.766] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:51:10.766] [INFO] default - 开始处理模块: one
+[2019-11-28T16:51:10.784] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:51:10.789] [DEBUG] default - 页面one处理用时: 23 毫秒!
+[2019-11-28T16:51:10.789] [INFO] default - 开始处理模块: two
+[2019-11-28T16:51:10.802] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:51:10.807] [DEBUG] default - 页面two处理用时: 18 毫秒!
+[2019-11-28T16:51:10.807] [INFO] default - 开始处理模块: three
+[2019-11-28T16:51:10.811] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:51:10.812] [DEBUG] default - 页面three处理用时: 4 毫秒!
+[2019-11-28T16:51:10.812] [INFO] default - 开始处理模块: four
+[2019-11-28T16:51:10.815] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:51:10.815] [DEBUG] default - 页面four处理用时: 3 毫秒!
+[2019-11-28T16:51:10.816] [INFO] default - 开始处理模块: five
+[2019-11-28T16:51:10.819] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:51:10.819] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T16:51:10.820] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:10.820] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:51:10.820] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:10.820] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:10.820] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:10.820] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:51:10.820] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:51:10.823] [INFO] default - 处理字体: {}
+[2019-11-28T16:51:10.824] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T16:51:10.824] [INFO] default - 正在处理script!
+[2019-11-28T16:51:10.825] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:51:10.834] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:51:10.835] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:51:10.835] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:51:10.835] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:51:10.835] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:51:10.836] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:51:10.836] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:51:10.836] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:10.837] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:51:10.837] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:10.837] [DEBUG] default - 输出scriptData
+[2019-11-28T16:51:10.838] [DEBUG] default - 准备输出html!
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:51:10.838] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:51:10.839] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:51:10.839] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:51:10.839] [INFO] default - 编译结束!
+[2019-11-28T16:51:10.840] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:51:10.854] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:51:10.854] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:10.858] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:51:10.858] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:51:10.893] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:10.910] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:51:15.033] [INFO] default - file change: D:\work\中国之治\src\page\five.owo
+[2019-11-28T16:51:15.033] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:51:15.033] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:51:15.033] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\five.owo
+[2019-11-28T16:51:15.033] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:51:15.033] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:51:15.033] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:51:15.034] [INFO] default - 开始处理模块: one
+[2019-11-28T16:51:15.049] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:51:15.053] [DEBUG] default - 页面one处理用时: 19 毫秒!
+[2019-11-28T16:51:15.054] [INFO] default - 开始处理模块: two
+[2019-11-28T16:51:15.066] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:51:15.073] [DEBUG] default - 页面two处理用时: 19 毫秒!
+[2019-11-28T16:51:15.073] [INFO] default - 开始处理模块: three
+[2019-11-28T16:51:15.076] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:51:15.077] [DEBUG] default - 页面three处理用时: 4 毫秒!
+[2019-11-28T16:51:15.077] [INFO] default - 开始处理模块: four
+[2019-11-28T16:51:15.080] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:51:15.081] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T16:51:15.081] [INFO] default - 开始处理模块: five
+[2019-11-28T16:51:15.085] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:51:15.085] [DEBUG] default - 页面five处理用时: 4 毫秒!
+[2019-11-28T16:51:15.086] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:15.086] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:51:15.086] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:15.086] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:15.086] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:15.086] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:51:15.086] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:51:15.090] [INFO] default - 处理字体: {}
+[2019-11-28T16:51:15.091] [INFO] default - 使用postcss处理完毕! 用时: 5 毫秒
+[2019-11-28T16:51:15.091] [INFO] default - 正在处理script!
+[2019-11-28T16:51:15.092] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:51:15.105] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:51:15.105] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:51:15.105] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:51:15.105] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:51:15.105] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:51:15.105] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:51:15.105] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:51:15.105] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:15.105] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:51:15.105] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:15.106] [DEBUG] default - 输出scriptData
+[2019-11-28T16:51:15.106] [DEBUG] default - 准备输出html!
+[2019-11-28T16:51:15.106] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:51:15.106] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:51:15.106] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:51:15.106] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:51:15.106] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:51:15.106] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:51:15.107] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:51:15.107] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:51:15.107] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:51:15.107] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:51:15.108] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:51:15.108] [INFO] default - 编译结束!
+[2019-11-28T16:51:15.109] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:51:15.109] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:51:15.110] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:51:15.110] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:15.111] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:51:15.112] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:15.113] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:51:19.196] [INFO] default - file change: D:\work\中国之治\src\page\three.owo
+[2019-11-28T16:51:19.196] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:51:19.196] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:51:19.196] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\three.owo
+[2019-11-28T16:51:19.196] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:51:19.196] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:51:19.197] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:51:19.197] [INFO] default - 开始处理模块: one
+[2019-11-28T16:51:19.207] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:51:19.210] [DEBUG] default - 页面one处理用时: 13 毫秒!
+[2019-11-28T16:51:19.210] [INFO] default - 开始处理模块: two
+[2019-11-28T16:51:19.259] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:51:19.263] [DEBUG] default - 页面two处理用时: 53 毫秒!
+[2019-11-28T16:51:19.263] [INFO] default - 开始处理模块: three
+[2019-11-28T16:51:19.266] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:51:19.266] [DEBUG] default - 页面three处理用时: 3 毫秒!
+[2019-11-28T16:51:19.267] [INFO] default - 开始处理模块: four
+[2019-11-28T16:51:19.270] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:51:19.271] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T16:51:19.271] [INFO] default - 开始处理模块: five
+[2019-11-28T16:51:19.275] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:51:19.276] [DEBUG] default - 页面five处理用时: 5 毫秒!
+[2019-11-28T16:51:19.276] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:19.276] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:51:19.276] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:19.276] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:19.276] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:19.276] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:51:19.276] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:51:19.278] [INFO] default - 处理字体: {}
+[2019-11-28T16:51:19.279] [INFO] default - 使用postcss处理完毕! 用时: 3 毫秒
+[2019-11-28T16:51:19.279] [INFO] default - 正在处理script!
+[2019-11-28T16:51:19.280] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:51:19.287] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:51:19.288] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:51:19.289] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:51:19.289] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:51:19.289] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:51:19.289] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:51:19.289] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:51:19.289] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:19.289] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:51:19.289] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:19.289] [DEBUG] default - 输出scriptData
+[2019-11-28T16:51:19.290] [DEBUG] default - 准备输出html!
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:51:19.290] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:51:19.291] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:51:19.291] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:51:19.292] [INFO] default - 编译结束!
+[2019-11-28T16:51:19.293] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:51:19.293] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:19.293] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:51:19.293] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:51:19.294] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:51:19.294] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:19.295] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:51:56.425] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:51:56.425] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:51:56.425] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:51:56.425] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:51:56.425] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:51:56.425] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:51:56.425] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:51:56.426] [INFO] default - 开始处理模块: one
+[2019-11-28T16:51:56.434] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:51:56.436] [DEBUG] default - 页面one处理用时: 10 毫秒!
+[2019-11-28T16:51:56.436] [INFO] default - 开始处理模块: two
+[2019-11-28T16:51:56.448] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:51:56.455] [DEBUG] default - 页面two处理用时: 19 毫秒!
+[2019-11-28T16:51:56.455] [INFO] default - 开始处理模块: three
+[2019-11-28T16:51:56.458] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:51:56.458] [DEBUG] default - 页面three处理用时: 3 毫秒!
+[2019-11-28T16:51:56.458] [INFO] default - 开始处理模块: four
+[2019-11-28T16:51:56.461] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:51:56.462] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T16:51:56.462] [INFO] default - 开始处理模块: five
+[2019-11-28T16:51:56.465] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:51:56.465] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T16:51:56.466] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:56.466] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:51:56.466] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:56.466] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:56.466] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:51:56.466] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:51:56.466] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:51:56.471] [INFO] default - 处理字体: {}
+[2019-11-28T16:51:56.472] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
+[2019-11-28T16:51:56.472] [INFO] default - 正在处理script!
+[2019-11-28T16:51:56.473] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:51:56.483] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:51:56.484] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:51:56.484] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:51:56.484] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:51:56.484] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:51:56.484] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:51:56.484] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:51:56.484] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:56.484] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:51:56.484] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:56.484] [DEBUG] default - 输出scriptData
+[2019-11-28T16:51:56.485] [DEBUG] default - 准备输出html!
+[2019-11-28T16:51:56.485] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:51:56.486] [DEBUG] default - 处理资源:  [ 'D:/work/中国之治/src/resource/two-3-7.png',
+  'D:/work/中国之治/src/resource/two-3-6.png' ]
+[2019-11-28T16:51:56.486] [DEBUG] default - 资源目录:  D:/work/中国之治/dist/static/resource
+[2019-11-28T16:51:56.487] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:51:56.487] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:51:56.488] [INFO] default - 编译结束!
+[2019-11-28T16:51:56.489] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:51:56.492] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:51:56.492] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:51:56.492] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:51:56.507] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:51:56.507] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:51:56.508] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:55:52.656] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:55:52.656] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:55:52.656] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:55:52.656] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:55:52.656] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:55:52.656] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:55:52.656] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:55:52.656] [INFO] default - 开始处理模块: one
+[2019-11-28T16:55:52.665] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:55:52.667] [DEBUG] default - 页面one处理用时: 11 毫秒!
+[2019-11-28T16:55:52.667] [INFO] default - 开始处理模块: two
+[2019-11-28T16:55:52.681] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:55:52.687] [DEBUG] default - 页面two处理用时: 20 毫秒!
+[2019-11-28T16:55:52.687] [INFO] default - 开始处理模块: three
+[2019-11-28T16:55:52.692] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:55:52.692] [DEBUG] default - 页面three处理用时: 5 毫秒!
+[2019-11-28T16:55:52.692] [INFO] default - 开始处理模块: four
+[2019-11-28T16:55:52.694] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:55:52.695] [DEBUG] default - 页面four处理用时: 3 毫秒!
+[2019-11-28T16:55:52.695] [INFO] default - 开始处理模块: five
+[2019-11-28T16:55:52.698] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:55:52.699] [DEBUG] default - 页面five处理用时: 4 毫秒!
+[2019-11-28T16:55:52.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:55:52.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:55:52.699] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:55:52.700] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:55:52.700] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:55:52.700] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:55:52.700] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:55:52.702] [INFO] default - 处理字体: {}
+[2019-11-28T16:55:52.704] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T16:55:52.704] [INFO] default - 正在处理script!
+[2019-11-28T16:55:52.705] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:55:52.713] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:55:52.713] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:55:52.713] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:55:52.713] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:55:52.713] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:55:52.713] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:55:52.713] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:55:52.713] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:55:52.713] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:55:52.713] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:55:52.714] [DEBUG] default - 输出scriptData
+[2019-11-28T16:55:52.715] [DEBUG] default - 准备输出html!
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:55:52.715] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:55:52.716] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T16:55:52.716] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T16:55:52.716] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:55:52.716] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:55:52.717] [INFO] default - 编译结束!
+[2019-11-28T16:55:52.718] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:55:52.718] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:55:52.718] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:55:52.718] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:55:52.719] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:55:52.719] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:55:52.720] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:57:42.103] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:57:42.103] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:57:42.103] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:57:42.103] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:57:42.103] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:57:42.104] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:57:42.104] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:57:42.105] [INFO] default - 开始处理模块: one
+[2019-11-28T16:57:42.125] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:57:42.132] [DEBUG] default - 页面one处理用时: 27 毫秒!
+[2019-11-28T16:57:42.132] [INFO] default - 开始处理模块: two
+[2019-11-28T16:57:42.146] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:57:42.151] [DEBUG] default - 页面two处理用时: 19 毫秒!
+[2019-11-28T16:57:42.151] [INFO] default - 开始处理模块: three
+[2019-11-28T16:57:42.154] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:57:42.155] [DEBUG] default - 页面three处理用时: 4 毫秒!
+[2019-11-28T16:57:42.155] [INFO] default - 开始处理模块: four
+[2019-11-28T16:57:42.156] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:57:42.157] [DEBUG] default - 页面four处理用时: 2 毫秒!
+[2019-11-28T16:57:42.157] [INFO] default - 开始处理模块: five
+[2019-11-28T16:57:42.160] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:57:42.161] [DEBUG] default - 页面five处理用时: 4 毫秒!
+[2019-11-28T16:57:42.161] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:57:42.161] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:57:42.161] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:57:42.161] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:57:42.161] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:57:42.161] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:57:42.161] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:57:42.163] [INFO] default - 处理字体: {}
+[2019-11-28T16:57:42.188] [INFO] default - 使用postcss处理完毕! 用时: 27 毫秒
+[2019-11-28T16:57:42.188] [INFO] default - 正在处理script!
+[2019-11-28T16:57:42.189] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:57:42.197] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:57:42.198] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:57:42.198] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:57:42.198] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:57:42.198] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:57:42.198] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:57:42.198] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:57:42.198] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:57:42.198] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:57:42.198] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:57:42.198] [DEBUG] default - 输出scriptData
+[2019-11-28T16:57:42.199] [DEBUG] default - 准备输出html!
+[2019-11-28T16:57:42.199] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:57:42.199] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:57:42.199] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:57:42.199] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:57:42.199] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:57:42.199] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:57:42.199] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:57:42.199] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:57:42.200] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:57:42.200] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T16:57:42.200] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T16:57:42.201] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:57:42.201] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:57:42.202] [INFO] default - 编译结束!
+[2019-11-28T16:57:42.202] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:57:42.209] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:57:42.209] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:57:42.219] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:57:42.224] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:57:42.231] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:57:42.235] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T16:58:04.236] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:58:04.236] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T16:58:04.236] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T16:58:04.236] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T16:58:04.236] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T16:58:04.237] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T16:58:04.237] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T16:58:04.237] [INFO] default - 开始处理模块: one
+[2019-11-28T16:58:04.250] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T16:58:04.253] [DEBUG] default - 页面one处理用时: 16 毫秒!
+[2019-11-28T16:58:04.253] [INFO] default - 开始处理模块: two
+[2019-11-28T16:58:04.269] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T16:58:04.274] [DEBUG] default - 页面two处理用时: 21 毫秒!
+[2019-11-28T16:58:04.274] [INFO] default - 开始处理模块: three
+[2019-11-28T16:58:04.279] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T16:58:04.279] [DEBUG] default - 页面three处理用时: 5 毫秒!
+[2019-11-28T16:58:04.280] [INFO] default - 开始处理模块: four
+[2019-11-28T16:58:04.282] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T16:58:04.284] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T16:58:04.284] [INFO] default - 开始处理模块: five
+[2019-11-28T16:58:04.286] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T16:58:04.287] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T16:58:04.287] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:58:04.287] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T16:58:04.287] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:58:04.287] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:58:04.287] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T16:58:04.287] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T16:58:04.287] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T16:58:04.290] [INFO] default - 处理字体: {}
+[2019-11-28T16:58:04.291] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T16:58:04.291] [INFO] default - 正在处理script!
+[2019-11-28T16:58:04.292] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T16:58:04.309] [INFO] default - 工程中包含多个页面!
+[2019-11-28T16:58:04.310] [INFO] default - js中的资源处理完毕!
+[2019-11-28T16:58:04.310] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T16:58:04.310] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T16:58:04.310] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T16:58:04.310] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T16:58:04.310] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T16:58:04.310] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:58:04.310] [DEBUG] default - 处理脚本: main
+[2019-11-28T16:58:04.310] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T16:58:04.310] [DEBUG] default - 输出scriptData
+[2019-11-28T16:58:04.311] [DEBUG] default - 准备输出html!
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T16:58:04.311] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T16:58:04.312] [INFO] default - 包含有页面切换动画!
+[2019-11-28T16:58:04.312] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T16:58:04.313] [INFO] default - 编译结束!
+[2019-11-28T16:58:04.314] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T16:58:04.315] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T16:58:04.315] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T16:58:04.315] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T16:58:04.317] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T16:58:04.324] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T16:58:04.325] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T17:00:25.980] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T17:00:25.980] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T17:00:25.980] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T17:00:25.980] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T17:00:25.980] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T17:00:25.981] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T17:00:25.981] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T17:00:25.981] [INFO] default - 开始处理模块: one
+[2019-11-28T17:00:25.992] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T17:00:25.995] [DEBUG] default - 页面one处理用时: 14 毫秒!
+[2019-11-28T17:00:25.995] [INFO] default - 开始处理模块: two
+[2019-11-28T17:00:26.008] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T17:00:26.015] [DEBUG] default - 页面two处理用时: 20 毫秒!
+[2019-11-28T17:00:26.015] [INFO] default - 开始处理模块: three
+[2019-11-28T17:00:26.020] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T17:00:26.020] [DEBUG] default - 页面three处理用时: 5 毫秒!
+[2019-11-28T17:00:26.021] [INFO] default - 开始处理模块: four
+[2019-11-28T17:00:26.024] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T17:00:26.025] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T17:00:26.025] [INFO] default - 开始处理模块: five
+[2019-11-28T17:00:26.028] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T17:00:26.029] [DEBUG] default - 页面five处理用时: 4 毫秒!
+[2019-11-28T17:00:26.029] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:00:26.029] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T17:00:26.029] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:00:26.029] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:00:26.029] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:00:26.029] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T17:00:26.029] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T17:00:26.035] [INFO] default - 处理字体: {}
+[2019-11-28T17:00:26.036] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
+[2019-11-28T17:00:26.036] [INFO] default - 正在处理script!
+[2019-11-28T17:00:26.037] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T17:00:26.050] [INFO] default - 工程中包含多个页面!
+[2019-11-28T17:00:26.051] [INFO] default - js中的资源处理完毕!
+[2019-11-28T17:00:26.051] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T17:00:26.051] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T17:00:26.051] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T17:00:26.051] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T17:00:26.051] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T17:00:26.051] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:00:26.051] [DEBUG] default - 处理脚本: main
+[2019-11-28T17:00:26.051] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T17:00:26.051] [DEBUG] default - 输出scriptData
+[2019-11-28T17:00:26.052] [DEBUG] default - 准备输出html!
+[2019-11-28T17:00:26.052] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T17:00:26.052] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T17:00:26.052] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T17:00:26.052] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T17:00:26.053] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T17:00:26.053] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T17:00:26.053] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T17:00:26.053] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T17:00:26.053] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T17:00:26.053] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T17:00:26.053] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T17:00:26.054] [INFO] default - 包含有页面切换动画!
+[2019-11-28T17:00:26.054] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T17:00:26.054] [INFO] default - 编译结束!
+[2019-11-28T17:00:26.055] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T17:00:26.056] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T17:00:26.056] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T17:00:26.056] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T17:00:26.057] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T17:00:26.058] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:00:26.070] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T17:02:44.463] [INFO] default - file change: D:\work\中国之治\src\page\two.owo
+[2019-11-28T17:02:44.463] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T17:02:44.463] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T17:02:44.463] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\two.owo
+[2019-11-28T17:02:44.463] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T17:02:44.463] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T17:02:44.463] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T17:02:44.464] [INFO] default - 开始处理模块: one
+[2019-11-28T17:02:44.474] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T17:02:44.478] [DEBUG] default - 页面one处理用时: 14 毫秒!
+[2019-11-28T17:02:44.478] [INFO] default - 开始处理模块: two
+[2019-11-28T17:02:44.497] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T17:02:44.504] [DEBUG] default - 页面two处理用时: 26 毫秒!
+[2019-11-28T17:02:44.504] [INFO] default - 开始处理模块: three
+[2019-11-28T17:02:44.507] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T17:02:44.507] [DEBUG] default - 页面three处理用时: 3 毫秒!
+[2019-11-28T17:02:44.507] [INFO] default - 开始处理模块: four
+[2019-11-28T17:02:44.510] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T17:02:44.511] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T17:02:44.511] [INFO] default - 开始处理模块: five
+[2019-11-28T17:02:44.514] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T17:02:44.514] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T17:02:44.515] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:02:44.515] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T17:02:44.515] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:02:44.515] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:02:44.515] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:02:44.515] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T17:02:44.515] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T17:02:44.517] [INFO] default - 处理字体: {}
+[2019-11-28T17:02:44.518] [INFO] default - 使用postcss处理完毕! 用时: 3 毫秒
+[2019-11-28T17:02:44.518] [INFO] default - 正在处理script!
+[2019-11-28T17:02:44.519] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T17:02:44.529] [INFO] default - 工程中包含多个页面!
+[2019-11-28T17:02:44.530] [INFO] default - js中的资源处理完毕!
+[2019-11-28T17:02:44.530] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T17:02:44.530] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T17:02:44.530] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T17:02:44.530] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T17:02:44.530] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T17:02:44.530] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:02:44.530] [DEBUG] default - 处理脚本: main
+[2019-11-28T17:02:44.530] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T17:02:44.530] [DEBUG] default - 输出scriptData
+[2019-11-28T17:02:44.531] [DEBUG] default - 准备输出html!
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T17:02:44.531] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T17:02:44.532] [INFO] default - 包含有页面切换动画!
+[2019-11-28T17:02:44.532] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight
+[2019-11-28T17:02:44.533] [INFO] default - 编译结束!
+[2019-11-28T17:02:44.534] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T17:02:44.535] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T17:02:44.535] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T17:02:44.536] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T17:02:44.537] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T17:02:44.537] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:02:44.545] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T17:05:37.501] [INFO] default - file change: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:05:37.501] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T17:05:37.501] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T17:05:37.501] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:05:37.501] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T17:05:37.501] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T17:05:37.501] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T17:05:37.502] [INFO] default - 开始处理模块: one
+[2019-11-28T17:05:37.514] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T17:05:37.518] [DEBUG] default - 页面one处理用时: 16 毫秒!
+[2019-11-28T17:05:37.518] [INFO] default - 开始处理模块: two
+[2019-11-28T17:05:37.531] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T17:05:37.537] [DEBUG] default - 页面two处理用时: 19 毫秒!
+[2019-11-28T17:05:37.537] [INFO] default - 开始处理模块: three
+[2019-11-28T17:05:37.540] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T17:05:37.540] [DEBUG] default - 页面three处理用时: 3 毫秒!
+[2019-11-28T17:05:37.540] [INFO] default - 开始处理模块: four
+[2019-11-28T17:05:37.543] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T17:05:37.544] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T17:05:37.544] [INFO] default - 开始处理模块: five
+[2019-11-28T17:05:37.547] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T17:05:37.547] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T17:05:37.547] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:05:37.548] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T17:05:37.548] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:05:37.548] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:05:37.548] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:05:37.548] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T17:05:37.548] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T17:05:37.550] [INFO] default - 处理字体: {}
+[2019-11-28T17:05:37.551] [INFO] default - 使用postcss处理完毕! 用时: 3 毫秒
+[2019-11-28T17:05:37.551] [INFO] default - 正在处理script!
+[2019-11-28T17:05:37.552] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T17:05:37.563] [INFO] default - 工程中包含多个页面!
+[2019-11-28T17:05:37.563] [INFO] default - js中的资源处理完毕!
+[2019-11-28T17:05:37.563] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T17:05:37.563] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T17:05:37.563] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T17:05:37.563] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T17:05:37.563] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T17:05:37.563] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:05:37.563] [DEBUG] default - 处理脚本: main
+[2019-11-28T17:05:37.564] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T17:05:37.564] [DEBUG] default - 输出scriptData
+[2019-11-28T17:05:37.574] [DEBUG] default - 准备输出html!
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T17:05:37.574] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T17:05:37.575] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T17:05:37.575] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T17:05:37.575] [INFO] default - 包含有页面切换动画!
+[2019-11-28T17:05:37.576] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight,scaleDown
+[2019-11-28T17:05:37.576] [INFO] default - 编译结束!
+[2019-11-28T17:05:37.577] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T17:05:37.596] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T17:05:37.597] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T17:05:37.597] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T17:05:37.604] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T17:05:37.609] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:05:37.614] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T17:05:57.561] [INFO] default - file change: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:05:57.561] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T17:05:57.561] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T17:05:57.561] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:05:57.561] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T17:05:57.561] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T17:05:57.561] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T17:05:57.562] [INFO] default - 开始处理模块: one
+[2019-11-28T17:05:57.577] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T17:05:57.582] [DEBUG] default - 页面one处理用时: 20 毫秒!
+[2019-11-28T17:05:57.582] [INFO] default - 开始处理模块: two
+[2019-11-28T17:05:57.597] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T17:05:57.602] [DEBUG] default - 页面two处理用时: 20 毫秒!
+[2019-11-28T17:05:57.602] [INFO] default - 开始处理模块: three
+[2019-11-28T17:05:57.606] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T17:05:57.606] [DEBUG] default - 页面three处理用时: 4 毫秒!
+[2019-11-28T17:05:57.606] [INFO] default - 开始处理模块: four
+[2019-11-28T17:05:57.609] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T17:05:57.610] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T17:05:57.610] [INFO] default - 开始处理模块: five
+[2019-11-28T17:05:57.613] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T17:05:57.614] [DEBUG] default - 页面five处理用时: 4 毫秒!
+[2019-11-28T17:05:57.614] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:05:57.614] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T17:05:57.614] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:05:57.614] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:05:57.614] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:05:57.614] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T17:05:57.614] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T17:05:57.617] [INFO] default - 处理字体: {}
+[2019-11-28T17:05:57.619] [INFO] default - 使用postcss处理完毕! 用时: 5 毫秒
+[2019-11-28T17:05:57.619] [INFO] default - 正在处理script!
+[2019-11-28T17:05:57.620] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T17:05:57.633] [INFO] default - 工程中包含多个页面!
+[2019-11-28T17:05:57.634] [INFO] default - js中的资源处理完毕!
+[2019-11-28T17:05:57.634] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T17:05:57.634] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T17:05:57.634] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T17:05:57.634] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T17:05:57.635] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T17:05:57.635] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:05:57.635] [DEBUG] default - 处理脚本: main
+[2019-11-28T17:05:57.635] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T17:05:57.635] [DEBUG] default - 输出scriptData
+[2019-11-28T17:05:57.636] [DEBUG] default - 准备输出html!
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T17:05:57.636] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T17:05:57.638] [INFO] default - 包含有页面切换动画!
+[2019-11-28T17:05:57.638] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight,scaleDown
+[2019-11-28T17:05:57.638] [INFO] default - 编译结束!
+[2019-11-28T17:05:57.639] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T17:05:57.641] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T17:05:57.641] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T17:05:57.641] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T17:05:57.642] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T17:05:57.642] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:05:57.645] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T17:06:11.737] [INFO] default - file change: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:06:11.737] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T17:06:11.737] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T17:06:11.737] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:06:11.737] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T17:06:11.737] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T17:06:11.737] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T17:06:11.737] [INFO] default - 开始处理模块: one
+[2019-11-28T17:06:11.749] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T17:06:11.752] [DEBUG] default - 页面one处理用时: 15 毫秒!
+[2019-11-28T17:06:11.752] [INFO] default - 开始处理模块: two
+[2019-11-28T17:06:11.769] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T17:06:11.776] [DEBUG] default - 页面two处理用时: 24 毫秒!
+[2019-11-28T17:06:11.776] [INFO] default - 开始处理模块: three
+[2019-11-28T17:06:11.780] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T17:06:11.781] [DEBUG] default - 页面three处理用时: 5 毫秒!
+[2019-11-28T17:06:11.781] [INFO] default - 开始处理模块: four
+[2019-11-28T17:06:11.784] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T17:06:11.785] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T17:06:11.785] [INFO] default - 开始处理模块: five
+[2019-11-28T17:06:11.787] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T17:06:11.788] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T17:06:11.788] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:06:11.788] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T17:06:11.788] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:06:11.788] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:06:11.789] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:06:11.789] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T17:06:11.789] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T17:06:11.792] [INFO] default - 处理字体: {}
+[2019-11-28T17:06:11.793] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T17:06:11.793] [INFO] default - 正在处理script!
+[2019-11-28T17:06:11.794] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T17:06:11.831] [INFO] default - 工程中包含多个页面!
+[2019-11-28T17:06:11.832] [INFO] default - js中的资源处理完毕!
+[2019-11-28T17:06:11.832] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T17:06:11.832] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T17:06:11.832] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T17:06:11.832] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T17:06:11.832] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T17:06:11.832] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:06:11.832] [DEBUG] default - 处理脚本: main
+[2019-11-28T17:06:11.832] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T17:06:11.832] [DEBUG] default - 输出scriptData
+[2019-11-28T17:06:11.833] [DEBUG] default - 准备输出html!
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T17:06:11.833] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T17:06:11.834] [INFO] default - 包含有页面切换动画!
+[2019-11-28T17:06:11.834] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight,scaleDown
+[2019-11-28T17:06:11.835] [INFO] default - 编译结束!
+[2019-11-28T17:06:11.835] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T17:06:11.836] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T17:06:11.836] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T17:06:11.836] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T17:06:11.837] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T17:06:11.837] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:06:11.839] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T17:07:15.974] [INFO] default - file change: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:07:15.975] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T17:07:15.975] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T17:07:15.975] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:07:15.975] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T17:07:15.975] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T17:07:15.975] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T17:07:15.975] [INFO] default - 开始处理模块: one
+[2019-11-28T17:07:15.988] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T17:07:15.992] [DEBUG] default - 页面one处理用时: 17 毫秒!
+[2019-11-28T17:07:15.992] [INFO] default - 开始处理模块: two
+[2019-11-28T17:07:16.006] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T17:07:16.012] [DEBUG] default - 页面two处理用时: 20 毫秒!
+[2019-11-28T17:07:16.012] [INFO] default - 开始处理模块: three
+[2019-11-28T17:07:16.014] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T17:07:16.014] [DEBUG] default - 页面three处理用时: 2 毫秒!
+[2019-11-28T17:07:16.014] [INFO] default - 开始处理模块: four
+[2019-11-28T17:07:16.018] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T17:07:16.019] [DEBUG] default - 页面four处理用时: 5 毫秒!
+[2019-11-28T17:07:16.019] [INFO] default - 开始处理模块: five
+[2019-11-28T17:07:16.022] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T17:07:16.022] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T17:07:16.022] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:07:16.023] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T17:07:16.023] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:07:16.023] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:07:16.023] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:07:16.023] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T17:07:16.023] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T17:07:16.027] [INFO] default - 处理字体: {}
+[2019-11-28T17:07:16.028] [INFO] default - 使用postcss处理完毕! 用时: 5 毫秒
+[2019-11-28T17:07:16.028] [INFO] default - 正在处理script!
+[2019-11-28T17:07:16.029] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T17:07:16.040] [INFO] default - 工程中包含多个页面!
+[2019-11-28T17:07:16.041] [INFO] default - js中的资源处理完毕!
+[2019-11-28T17:07:16.041] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T17:07:16.041] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T17:07:16.041] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T17:07:16.041] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T17:07:16.041] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T17:07:16.041] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:07:16.041] [DEBUG] default - 处理脚本: main
+[2019-11-28T17:07:16.041] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T17:07:16.041] [DEBUG] default - 输出scriptData
+[2019-11-28T17:07:16.065] [DEBUG] default - 准备输出html!
+[2019-11-28T17:07:16.065] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T17:07:16.065] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T17:07:16.065] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T17:07:16.066] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T17:07:16.066] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T17:07:16.066] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T17:07:16.066] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T17:07:16.066] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T17:07:16.066] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T17:07:16.066] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T17:07:16.066] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T17:07:16.068] [INFO] default - 包含有页面切换动画!
+[2019-11-28T17:07:16.068] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight,scaleDown,moveFromRight
+[2019-11-28T17:07:16.069] [INFO] default - 编译结束!
+[2019-11-28T17:07:16.073] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T17:07:16.075] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T17:07:16.075] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T17:07:16.075] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T17:07:16.075] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T17:07:16.076] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:07:16.077] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js
+[2019-11-28T17:07:28.356] [INFO] default - file change: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:07:28.356] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-28T17:07:28.356] [INFO] default - 程序运行目录: D:\work\中国之治
+[2019-11-28T17:07:28.356] [INFO] default - 刷新模式,变化目录: D:\work\中国之治\src\page\one.owo
+[2019-11-28T17:07:28.356] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-28T17:07:28.356] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-28T17:07:28.356] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-28T17:07:28.356] [INFO] default - 开始处理模块: one
+[2019-11-28T17:07:28.364] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-28T17:07:28.367] [DEBUG] default - 页面one处理用时: 11 毫秒!
+[2019-11-28T17:07:28.367] [INFO] default - 开始处理模块: two
+[2019-11-28T17:07:28.381] [DEBUG] default - 缓存模板: two./src/page/two.owo
+[2019-11-28T17:07:28.388] [DEBUG] default - 页面two处理用时: 21 毫秒!
+[2019-11-28T17:07:28.388] [INFO] default - 开始处理模块: three
+[2019-11-28T17:07:28.391] [DEBUG] default - 缓存模板: three./src/page/three.owo
+[2019-11-28T17:07:28.391] [DEBUG] default - 页面three处理用时: 3 毫秒!
+[2019-11-28T17:07:28.392] [INFO] default - 开始处理模块: four
+[2019-11-28T17:07:28.396] [DEBUG] default - 缓存模板: four./src/page/four.owo
+[2019-11-28T17:07:28.396] [DEBUG] default - 页面four处理用时: 4 毫秒!
+[2019-11-28T17:07:28.396] [INFO] default - 开始处理模块: five
+[2019-11-28T17:07:28.398] [DEBUG] default - 缓存模板: five./src/page/five.owo
+[2019-11-28T17:07:28.399] [DEBUG] default - 页面five处理用时: 3 毫秒!
+[2019-11-28T17:07:28.399] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:07:28.399] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-9.png
+[2019-11-28T17:07:28.399] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:07:28.400] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:07:28.400] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-5.png
+[2019-11-28T17:07:28.400] [DEBUG] default - css中的资源处理完毕!
+[2019-11-28T17:07:28.400] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-28T17:07:28.403] [INFO] default - 处理字体: {}
+[2019-11-28T17:07:28.404] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
+[2019-11-28T17:07:28.404] [INFO] default - 正在处理script!
+[2019-11-28T17:07:28.405] [DEBUG] default - 选择将js合并到html中!
+[2019-11-28T17:07:28.416] [INFO] default - 工程中包含多个页面!
+[2019-11-28T17:07:28.416] [INFO] default - js中的资源处理完毕!
+[2019-11-28T17:07:28.416] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-28T17:07:28.416] [DEBUG] default - 外部脚本数量: 3
+[2019-11-28T17:07:28.417] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-28T17:07:28.417] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-28T17:07:28.417] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-28T17:07:28.417] [INFO] default - 读取文件: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:07:28.417] [DEBUG] default - 处理脚本: main
+[2019-11-28T17:07:28.417] [INFO] default - 读取文件: D:\work\中国之治\src\main.js
+[2019-11-28T17:07:28.417] [DEBUG] default - 输出scriptData
+[2019-11-28T17:07:28.440] [DEBUG] default - 准备输出html!
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-2.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-0.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-4.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-1.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/one-4-3.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-2.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-1.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-0.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-8.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-7.png
+[2019-11-28T17:07:28.440] [DEBUG] default - 忽略文件: D:/work/中国之治/src/resource/two-3-6.png
+[2019-11-28T17:07:28.441] [INFO] default - 包含有页面切换动画!
+[2019-11-28T17:07:28.441] [INFO] default - 动画列表: moveToLeft,scaleUp,moveToRight,scaleDown,moveFromRight,moveFromLeft
+[2019-11-28T17:07:28.442] [INFO] default - 编译结束!
+[2019-11-28T17:07:28.443] [INFO] default - 发送页面需要刷新命令!
+[2019-11-28T17:07:28.443] [INFO] default - 读取成功: D:\work\中国之治\src\main.js
+[2019-11-28T17:07:28.443] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-28T17:07:28.444] [INFO] default - 写入文件: D:\work\中国之治\dist\static\css\owo.main.css
+[2019-11-28T17:07:28.444] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\main.js
+[2019-11-28T17:07:28.445] [INFO] default - 读取成功: D:\work\中国之治\src\resource\swiper.4.5.0.min.js
+[2019-11-28T17:07:28.446] [INFO] default - 写入文件: D:\work\中国之治\dist\static\js\swiper.4.5.0.js

@@ -1,7 +1,5 @@
-<template>
-  <div class="home">
-    内容
-  </div>
+<template lang="pug">
+.four
 </template>
 
 <script>
@@ -14,5 +12,7 @@
 
 
 <style lang="less">
-
+.four {
+  background-image: url('@|one-4-5.png|');
+}
 </style>

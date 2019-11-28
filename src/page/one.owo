@@ -1,0 +1,59 @@
+<template lang="pug">
+.one
+  img.soulless.so-4-2.item-2(width="595", height="57", src="@|one-4-2.png|")
+  img.soulless.so-4-0.item-0(width="225", height="52", src="@|one-4-0.png|")
+  img.soulless.so-4-4.item-4(width="632", height="899", src="@|one-4-4.png|")
+  img.soulless.so-4-1.item-1(width="93", height="48", src="@|one-4-1.png|")
+  img.soulless.so-4-3.item-3(width="197", height="42", src="@|one-4-3.png|", :click="owo.go('two', 'moveToLeft', 'scaleUp', 'scaleDown', 'moveFromLeft')")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.one {
+  background-image: url('@|one-4-5.png|');
+}
+.so-4-5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.so-4-2 {
+  position: absolute;
+  left: 75px;
+  top: 163px;
+  z-index: 4;
+}
+.so-4-0 {
+  position: absolute;
+  left: 466px;
+  top: 313px;
+  z-index: 6;
+}
+.so-4-4 {
+  position: absolute;
+  left: 60px;
+  top: 258px;
+  z-index: 2;
+}
+.so-4-1 {
+  position: absolute;
+  left: 657px;
+  top: 457px;
+  z-index: 5;
+}
+.so-4-3 {
+  position: absolute;
+  left: 277px;
+  top: 1231px;
+  z-index: 3;
+}
+</style>

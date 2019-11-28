@@ -1,0 +1,108 @@
+<template lang="pug">
+.two
+  img.soulless.so-3-2.item-2(width="179", height="33", src="@|two-3-2.png|")
+  img.soulless.so-3-1.item-1(width="111", height="41", src="@|two-3-1.png|")
+  img.soulless.so-3-0.item-0(width="114", height="41", src="@|two-3-0.png|")
+  img.soulless.so-3-8.item-8(width="632", height="76", src="@|two-3-8.png|")
+  p.soulless.so-3-3.item-3 “用科技创新推动人类社会的进步”
+  p.soulless.so-3-5.item-5 <strong>黄陈宏</strong>   戴尔科技集团全球执行副总裁、大中华区总裁
+  p.soulless.so-3-4.item-4     拥有美国德克萨斯州 A&M 大学电子工程博士学位。曾发表多篇学术论文，同时也是 13 项专利的发明人或 共同发明人。
+  img.soulless.so-3-7.item-7(width="192", height="42", src="@|two-3-7.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
+  img.soulless.so-3-6.item-6(width="192", height="42", src="@|two-3-6.png|")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.two {
+  background-image: url('@|two-3-9.png|');
+}
+.so-3-9 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.so-3-2 {
+  position: absolute;
+  left: 72px;
+  top: 186px;
+  z-index: 8;
+}
+.so-3-1 {
+  position: absolute;
+  left: 436px;
+  top: 181px;
+  z-index: 9;
+}
+.so-3-0 {
+  position: absolute;
+  left: 569px;
+  top: 181px;
+  z-index: 10;
+}
+.so-3-8 {
+  position: absolute;
+  left: 64px;
+  top: 672px;
+  z-index: 2;
+}
+.so-3-3 {
+  position: absolute;
+  left: 154px;
+  top: 770px;
+  z-index: 7;
+  width: 454px;
+  color: #0a0a0a;
+  text-align: left;
+  font-size: 27px;
+  line-height: 66px;
+  font-weight: bold;
+}
+.so-3-5 {
+  position: absolute;
+  left: 134px;
+  top: 885px;
+  z-index: 5;
+  width: 500px;
+  font-family: 'MicrosoftYaHei';
+  color: #000000;
+  text-align: left;
+  font-size: 21px;
+  line-height: 44px;
+  overflow: hidden;
+}
+.so-3-4 {
+  position: absolute;
+  left: 128px;
+  top: 946px;
+  z-index: 6;
+  width: 510px;
+  height: 100px;
+  font-family: 'STFangsong';
+  color: #000000;
+  text-align: justify;
+  font-size: 22px;
+  line-height: 32px;
+  overflow: hidden;
+}
+.so-3-7 {
+  position: absolute;
+  left: 162px;
+  top: 1249px;
+  z-index: 3;
+}
+.so-3-6 {
+  position: absolute;
+  left: 413px;
+  top: 1249px;
+  z-index: 4;
+}
+</style>

@@ -1,0 +1,296 @@
+body, html, .owo, .page-box {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+
+a {
+  color: #333;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.one {
+  background-image: url('../resource/one-4-5.png');
+}
+
+.one .so-4-5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.one .so-4-2 {
+  position: absolute;
+  left: 75px;
+  top: 163px;
+  z-index: 4;
+}
+
+.one .so-4-0 {
+  position: absolute;
+  left: 466px;
+  top: 313px;
+  z-index: 6;
+}
+
+.one .so-4-4 {
+  position: absolute;
+  left: 60px;
+  top: 258px;
+  z-index: 2;
+}
+
+.one .so-4-1 {
+  position: absolute;
+  left: 657px;
+  top: 457px;
+  z-index: 5;
+}
+
+.one .so-4-3 {
+  position: absolute;
+  left: 277px;
+  top: 1231px;
+  z-index: 3;
+}
+.two {
+  background-image: url('../resource/two-3-9.png');
+}
+
+.two .so-3-9 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.two .so-3-2 {
+  position: absolute;
+  left: 72px;
+  top: 186px;
+  z-index: 8;
+}
+
+.two .so-3-1 {
+  position: absolute;
+  left: 436px;
+  top: 181px;
+  z-index: 9;
+}
+
+.two .so-3-0 {
+  position: absolute;
+  left: 569px;
+  top: 181px;
+  z-index: 10;
+}
+
+.two .so-3-8 {
+  position: absolute;
+  left: 64px;
+  top: 672px;
+  z-index: 2;
+}
+
+.two .so-3-3 {
+  position: absolute;
+  left: 154px;
+  top: 770px;
+  z-index: 7;
+  width: 454px;
+  color: #0a0a0a;
+  text-align: left;
+  font-size: 27px;
+  line-height: 66px;
+  font-weight: bold;
+}
+
+.two .so-3-5 {
+  position: absolute;
+  left: 134px;
+  top: 885px;
+  z-index: 5;
+  width: 500px;
+  font-family: 'MicrosoftYaHei';
+  color: #000000;
+  text-align: left;
+  font-size: 21px;
+  line-height: 44px;
+  overflow: hidden;
+}
+
+.two .so-3-4 {
+  position: absolute;
+  left: 128px;
+  top: 946px;
+  z-index: 6;
+  width: 510px;
+  height: 100px;
+  font-family: 'STFangsong';
+  color: #000000;
+  text-align: justify;
+  font-size: 22px;
+  line-height: 32px;
+  overflow: hidden;
+}
+
+.two .so-3-7 {
+  position: absolute;
+  left: 162px;
+  top: 1249px;
+  z-index: 3;
+}
+
+.two .so-3-6 {
+  position: absolute;
+  left: 413px;
+  top: 1249px;
+  z-index: 4;
+}
+.three {
+  background-image: url('../resource/one-4-5.png');
+}
+.four {
+  background-image: url('../resource/one-4-5.png');
+}
+.five .two {
+  background-image: url('../resource/one-4-5.png');
+}
+/* 页面切换动画 */
+.o-page-moveToLeft {
+	-webkit-animation: moveToLeft .6s ease both;
+	-moz-animation: moveToLeft .6s ease both;
+	animation: moveToLeft .6s ease both;
+}
+
+@-webkit-keyframes moveToLeft {
+	to { -webkit-transform: translateX(-100%); }
+}
+@-moz-keyframes moveToLeft {
+	to { -moz-transform: translateX(-100%); }
+}
+@keyframes moveToLeft {
+	to { transform: translateX(-100%); }
+}
+.o-page-scaleUp {
+	-webkit-animation: scaleUp .7s ease both;
+	-moz-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
+}
+
+@-webkit-keyframes scaleUp {
+	from { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleUp {
+	from { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleUp {
+	from { opacity: 0; transform: scale(.8); }
+}
+.o-page-moveToRight {
+	-webkit-animation: moveToRight .6s ease both;
+	-moz-animation: moveToRight .6s ease both;
+	animation: moveToRight .6s ease both;
+}
+
+@-webkit-keyframes moveToRight { 
+	to { -webkit-transform: translateX(100%); }
+}
+@-moz-keyframes moveToRight { 
+	to { -moz-transform: translateX(100%); }
+}
+@keyframes moveToRight { 
+	to { transform: translateX(100%); }
+}
+.o-page-scaleDown {
+	-webkit-animation: scaleDown .7s ease both;
+	-moz-animation: scaleDown .7s ease both;
+	animation: scaleDown .7s ease both;
+}
+
+@-webkit-keyframes scaleDown {
+	to { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleDown {
+	to { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleDown {
+	to { opacity: 0; transform: scale(.8); }
+}
+.o-page-moveFromRight {
+	-webkit-animation: moveFromRight .6s ease both;
+	-moz-animation: moveFromRight .6s ease both;
+	animation: moveFromRight .6s ease both;
+}
+
+@-webkit-keyframes moveFromRight {
+	from { -webkit-transform: translateX(100%); }
+}
+@-moz-keyframes moveFromRight {
+	from { -moz-transform: translateX(100%); }
+}
+@keyframes moveFromRight {
+	from { transform: translateX(100%); }
+}
+.o-page-moveFromLeft {
+	-webkit-animation: moveFromLeft .6s ease both;
+	-moz-animation: moveFromLeft .6s ease both;
+	animation: moveFromLeft .6s ease both;
+}
+
+@-webkit-keyframes moveFromLeft {
+	from { -webkit-transform: translateX(-100%); }
+}
+@-moz-keyframes moveFromLeft {
+	from { -moz-transform: translateX(-100%); }
+}
+@keyframes moveFromLeft {
+	from { transform: translateX(-100%); }
+}
+

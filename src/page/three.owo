@@ -1,0 +1,18 @@
+<template lang="pug">
+.three
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.three {
+  background-image: url('@|one-4-5.png|');
+}
+</style>
