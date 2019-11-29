@@ -7,6 +7,7 @@ module.exports = {
   scheme: [],
   // 输出目录
   outFolder: "./dist",
+  container: "scale-box",
   // 手机入口
   // phoneEnter: "loading",
   // 资源目录

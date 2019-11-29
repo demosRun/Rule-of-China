@@ -1,7 +1,8 @@
 <template lang="pug">
 .one
+  .praise-num
   img.soulless.so-4-2.item-2(width="595", height="57", src="@|one-4-2.png|")
-  img.soulless.so-4-0.item-0(width="225", height="52", src="@|one-4-0.png|")
+  img.soulless.so-4-0.item-0(width="225", height="52", src="@|one-4-0.png|", :tap="praise")
   img.soulless.so-4-4.item-4(width="632", height="899", src="@|one-4-4.png|")
   img.soulless.so-4-1.item-1(width="93", height="48", src="@|one-4-1.png|")
   img.soulless.so-4-3.item-3(width="197", height="42", src="@|one-4-3.png|", :click="owo.go('two', 'moveToLeft', 'scaleUp', 'scaleDown', 'moveFromLeft')")
@@ -10,7 +11,26 @@
 <script>
   module.exports = {
     created: function () {
-
+      $.ajax({
+        url: 'http://19diaocha.people.cn/20190605/json.php?type=618',
+        dataType: 'jsonp',
+        success: function (res) {
+          if (res[0]) {
+            owo.query('.praise-num')[0].innerText = res[0].bnum
+          }
+        }
+      })
+    },
+    praise: function () {
+      $.ajax({
+        url: 'http://littlepoll1.people.com.cn/button/index.php/cip/button/618/61008?',
+        dataType: 'jsonp',
+        jsonp: 'jsonCallback',
+        success: function (res) {}
+      })
+      setTimeout(() => {
+        owo.tool.toast('点赞成功!')
+      }, 100)
     }
   }
 </script>
@@ -55,5 +75,33 @@
   left: 277px;
   top: 1231px;
   z-index: 3;
+  animation: fade 1.5s infinite;
+}
+.praise-num {
+  position: absolute;
+  left: 550px;
+  top: 315px;
+  line-height: 44px;
+  font-size: 26px;
+  z-index: 9;
+  color: #511c06;
+  width: 140px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 4px;
+  user-select: none;
+  pointer-events: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1.0;
+  }
 }
 </style>

@@ -1,5 +1,10 @@
 <template lang="pug">
 .three
+  img.soulless.so-3-2.item-2(width="179", height="33", src="@|two-3-2.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
+  img.soulless.so-3-7.item-7(width="192", height="42", src="@|two-3-7.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
+  img.soulless.so-3-6.item-6(width="192", height="42", src="@|two-3-6.png|", :click="owo.go('four', 'moveToLeft', 'scaleUp', 'scaleDown', 'moveFromLeft')")
+  .video-box
+
 </template>
 
 <script>
@@ -13,6 +18,14 @@
 
 <style lang="less">
 .three {
-  background-image: url('@|one-4-5.png|');
+  background-image: url('@|three-2-3.png|');
+}
+.video-box {
+  position: absolute;
+  width: 500px;
+  height: 290px;
+  background-color: white;
+  left: 134px;
+  top: 477px;
 }
 </style>

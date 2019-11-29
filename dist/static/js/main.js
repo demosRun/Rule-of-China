@@ -4,23 +4,24 @@ var deviseW = 750
 var deviseH = 1508
 
 function getScale () {
+  const scaleBox = document.getElementsByClassName('scale-box')[0]
   // 如果比例大于1则进入电脑模式
   if ((window.innerWidth / window.innerHeight) < 1) {
     var scale = window.innerWidth / deviseW
-    document.body.style.width = deviseW + 'px'
-    document.body.style.height = deviseH + 'px'
-    document.body.style.transform = `scale(${scale}, ${scale})`
+    scaleBox.style.width = deviseW + 'px'
+    scaleBox.style.height = deviseH + 'px'
+    scaleBox.style.transform = `scale(${scale}, ${scale})`
     // console.log(window.innerHeight, deviseH * scale)
-    document.body.style.transformOrigin = `0 ${(window.innerHeight - deviseH * scale) + 'px' } 0`
+    scaleBox.style.transformOrigin = `0 ${(window.innerHeight - deviseH * scale) + 'px' } 0`
   } else {
     var scale = (window.innerHeight / deviseH).toFixed(2)
-    document.body.style.width = deviseW + 'px'
-    document.body.style.height = deviseH + 'px'
-    document.body.style.transform = `scale(${scale}, ${scale}) translate(${(window.innerWidth - deviseW * scale) / 2 / scale + 'px' }, 0)`
-    document.body.style.transformOrigin = '0 0 0'
+    scaleBox.style.width = deviseW + 'px'
+    scaleBox.style.height = deviseH + 'px'
+    scaleBox.style.transform = `scale(${scale}, ${scale}) translate(${(window.innerWidth - deviseW * scale) / 2 / scale + 'px' }, 0)`
+    scaleBox.style.transformOrigin = '0 0 0'
   }
   setTimeout(() => {
-    document.getElementsByTagName('html')[0].style.height = document.body.offsetHeight * scale + 'px'
+    document.getElementsByTagName('html')[0].style.height = scaleBox.offsetHeight * scale + 'px'
   }, 0)
 }
 

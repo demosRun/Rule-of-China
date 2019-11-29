@@ -1,5 +1,11 @@
 <template lang="pug">
 .four
+  img.soulless.so-3-2.item-2(width="179", height="33", src="@|two-3-2.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
+  img.soulless.so-3-1.item-1(width="111", height="41", src="@|two-3-1.png|")
+  img.soulless.so-3-0.item-0(width="114", height="41", src="@|two-3-0.png|")
+  img.soulless.so-3-7.item-7(width="192", height="42", src="@|two-3-7.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
+  img.soulless.so-3-6.item-6(width="192", height="42", src="@|two-3-6.png|", :click="owo.go('five', 'moveToLeft', 'scaleUp', 'scaleDown', 'moveFromLeft')")
+
 </template>
 
 <script>
@@ -13,6 +19,6 @@
 
 <style lang="less">
 .four {
-  background-image: url('@|one-4-5.png|');
+  background-image: url('@|four.jpg|');
 }
 </style>

@@ -1,4 +1,4 @@
-// Thu Nov 28 2019 17:07:28 GMT+0800 (GMT+08:00)
+// Fri Nov 29 2019 11:11:13 GMT+0800 (GMT+08:00)
 
 /* 方法合集 */
 var _owo = {}
@@ -217,7 +217,37 @@ _owo.ready = (function() {               //这个函数返回whenReady()函数
 })()
 
 
+/**
+ * 显示toast提示 不支持ie8
+ * @param  {number} text       显示的文字
+ * @param  {number} fontSize   字体大小
+ * @param  {number} time       显示时长
+ * @param  {number} container  显示容器
+ */
 
+owo.tool.toast = function (text, config) {
+  if (!config) config = {}
+  time = config.time || 2000
+  fontSize = config.fontSize || 14
+  container = config.container || document.body
+  if (window.owo.state.toastClock) {
+    clearTimeout(window.owo.state.toastClock)
+    hideToast()
+  }
+  var toast = document.createElement("div")
+  toast.setAttribute("id", "toast")
+  toast.setAttribute("class", "toast")
+  // 设置样式
+  toast.style.cssText = "position:fixed;z-index:999;background-color:rgba(0, 0, 0, 0.8);bottom:9%;border-radius:" + parseInt(fontSize / 3) + "px;left:50%;transform: translateX(-50%) translate3d(0, 0, 0);margin:0 auto;text-align:center;color:white;max-width:60%;padding:" + parseInt(fontSize / 2) + "px 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:" + fontSize + 'px;'
+
+  toast.innerHTML = text
+  container.appendChild(toast)
+  function hideToast() {
+    document.getElementById('toast').outerHTML = ''
+    window.owo.state.toastClock = null
+  }
+  window.owo.state.toastClock = setTimeout(hideToast, time)
+}
 
 _owo.getarg = function (url) { // 获取URL #后面内容
   if (!url) return null
@@ -317,6 +347,25 @@ if(/iPhone\sOS.*QQ[^B]/.test(navigator.userAgent)) {window.onpopstate = _owo.has
 
 // 执行页面加载完毕方法
 _owo.ready(_owo.showPage)
+_owo._event_tap = function (tempDom, callBack) {
+  // 变量
+  var startTime = 0
+  var isMove = false
+  tempDom.addEventListener('touchstart', function() {
+    startTime = Date.now();
+  })
+  tempDom.addEventListener('touchmove', function() {
+    isMove = true
+  })
+  tempDom.addEventListener('touchend', function(e) {
+    if (Date.now() - startTime < 300 && !isMove) {
+      callBack(e)
+    }
+    // 清零
+    startTime = 0;
+    isMove = false
+  })
+}
 
 
 // 这是用于代码调试的自动刷新代码，他不应该出现在正式上线版本!
