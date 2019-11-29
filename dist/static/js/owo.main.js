@@ -1,4 +1,4 @@
-// Fri Nov 29 2019 14:59:04 GMT+0800 (GMT+08:00)
+// Fri Nov 29 2019 17:10:29 GMT+0800 (GMT+08:00)
 
 /* 方法合集 */
 var _owo = {}
@@ -103,9 +103,7 @@ _owo.handleEvent = function (tempDom, templateName) {
           case 'show' : {
             // 初步先简单处理吧
             var temp = eventFor.replace(/ /g, '')
-            // 取出条件
-            var condition = temp.split("==")
-            if (activePage.data[condition[0]] != condition[1]) {
+            if (!activePage.data[temp]) {
               tempDom.style.display = 'none'
             }
             break

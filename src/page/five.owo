@@ -6,7 +6,7 @@
   img.soulless.so-0-0.item-0(width="247", height="219", src="@|five-0-0.png|")
   img.soulless.so-0-2.item-2(width="192", height="42", src="@|five-0-2.png|", :tap="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp', true)")
   img.soulless.so-0-1.item-1(width="227", height="42", src="@|five-0-1.png|", :tap="owo.tool.change('showShare', true)")
-  .share-box(:show="data.showShare == true")
+  .share-box(:show="showShare")
     img(src="@|share.png|")
 </template>
 
