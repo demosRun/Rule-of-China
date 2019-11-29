@@ -1,15 +1,20 @@
 <template lang="pug">
 .five
-  img.soulless.so-3-2.item-2(width="179", height="33", src="@|two-3-2.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
+  img.soulless.so-3-2.item-2(width="179", height="33", src="@|two-3-2.png|", :tap="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
   img.soulless.so-3-1.item-1(width="111", height="41", src="@|two-3-1.png|")
   img.soulless.so-3-0.item-0(width="114", height="41", src="@|two-3-0.png|")
   img.soulless.so-0-0.item-0(width="247", height="219", src="@|five-0-0.png|")
-  img.soulless.so-0-2.item-2(width="192", height="42", src="@|five-0-2.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp', true)")
-  img.soulless.so-0-1.item-1(width="227", height="42", src="@|five-0-1.png|")
+  img.soulless.so-0-2.item-2(width="192", height="42", src="@|five-0-2.png|", :tap="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp', true)")
+  img.soulless.so-0-1.item-1(width="227", height="42", src="@|five-0-1.png|", :tap="owo.tool.change('showShare', true)")
+  .share-box(:show="data.showShare == true")
+    img(src="@|share.png|")
 </template>
 
 <script>
   module.exports = {
+    data: {
+      showShare: false
+    },
     created: function () {
 
     }
@@ -38,5 +43,12 @@
   left: 395px;
   top: 1250px;
   z-index: 3;
+}
+.share-box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
 }
 </style>
