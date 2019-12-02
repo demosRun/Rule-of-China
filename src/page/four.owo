@@ -1,17 +1,63 @@
 <template lang="pug">
 .four
-  img.soulless.so-3-2.item-2(width="179", height="33", src="@|two-3-2.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
-  img.soulless.so-3-1.item-1(width="111", height="41", src="@|two-3-1.png|")
-  img.soulless.so-3-0.item-0(width="114", height="41", src="@|two-3-0.png|")
-  img.soulless.so-3-7.item-7(width="192", height="42", src="@|two-3-7.png|", :click="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
-  img.soulless.so-3-6.item-6(width="192", height="42", src="@|two-3-6.png|", :click="owo.go('five', 'moveToLeft', 'scaleUp', 'scaleDown', 'moveFromLeft')")
-
+  img.soulless.so-3-2.item-2(width="179", height="33", src="@|two-3-2.png|", :tap="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
+  img.soulless.so-3-1.item-1(width="111", height="41", src="@|two-3-1.png|", :tap="increaseFontSize()")
+  img.soulless.so-3-0.item-0(width="114", height="41", src="@|two-3-0.png|", :tap="reduceFontSize()")
+  img.soulless.so-3-7.item-7(width="192", height="42", src="@|two-3-7.png|", :tap="owo.go('three', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
+  img.soulless.so-3-6.item-6(width="192", height="42", src="@|two-3-6.png|", :tap="owo.go('five', 'moveToLeft', 'scaleUp', 'scaleDown', 'moveFromLeft')")
+  h2 拿什么捍卫我们的土地
+  h4 作者：作者名&nbsp;&nbsp;职位职位职位职位职位职位
+  p 文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字
 </template>
 
 <script>
   module.exports = {
+    data: {
+      fontSize: 1
+    },
     created: function () {
 
+    },
+    setFontSize: function () {
+      const textPanel = owo.query('p')[0]
+      switch (this.data.fontSize) {
+        case 1:
+          textPanel.style.fontSize = '24px'
+          textPanel.style.lineHeight = '30px'
+          break;
+        case 2:
+          textPanel.style.fontSize = '28px'
+          textPanel.style.lineHeight = '34px'
+          break;
+        case 3:
+          textPanel.style.fontSize = '32px'
+          textPanel.style.lineHeight = '38px'
+          break;
+        case 4:
+          textPanel.style.fontSize = '38px'
+          textPanel.style.lineHeight = '42px'
+          break;
+        default:
+          textPanel.style.fontSize = '24px'
+          textPanel.style.lineHeight = '30px'
+          break;
+      }
+    },
+    increaseFontSize: function () {
+      if (this.data.fontSize < 4) {
+        this.data.fontSize++
+      } else {
+        owo.tool.toast('已经是最大字号了!')
+      }
+      this.setFontSize()
+    },
+    reduceFontSize: function () {
+      if (this.data.fontSize > 1) {
+        this.data.fontSize--
+      } else {
+        owo.tool.toast('已经是最小字号了!')
+      }
+      this.setFontSize()
     }
   }
 </script>
@@ -19,6 +65,39 @@
 
 <style lang="less">
 .four {
-  background-image: url('@|four.jpg|');
+  background-image: url('@|four.png|');
+}
+p {
+  position: absolute;
+  width: 500px;
+  height: 550px;
+  top: 540px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: auto;
+  font-size: 24px;
+  line-height: 30px;
+}
+h2 {
+  position: absolute;
+  top: 420px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 28px;
+  color: #b12418;
+  font-weight: bold;
+}
+h4 {
+  position: absolute;
+  top: 480px;
+  left: 125px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #b12418;
+  width: 465px;
+  margin: 0 10px;
 }
 </style>

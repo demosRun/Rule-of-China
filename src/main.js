@@ -14,6 +14,7 @@ function getScale () {
     // console.log(window.innerHeight, deviseH * scale)
     scaleBox.style.transformOrigin = `0 ${(window.innerHeight - deviseH * scale) + 'px' } 0`
   } else {
+    document.body.classList.add('pc')
     var scale = (window.innerHeight / deviseH).toFixed(2)
     scaleBox.style.width = deviseW + 'px'
     scaleBox.style.height = deviseH + 'px'
@@ -35,13 +36,3 @@ window.onresize = () => {
     getScale()
   }, 1000)
 }
-
-function scrollIntoView () {
-  // alert('滚动')
-  window.scrollTo(0, 0)
-}
-
-// 阻止微信拖动
-document.body.addEventListener('touchmove', function (e) {
-  e.preventDefault() // 阻止默认的处理方式(阻止下拉滑动的效果)
-}, {passive: false})

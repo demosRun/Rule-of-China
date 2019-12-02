@@ -881,7 +881,7 @@
 }
 
 .swiper333 .swiper-container32 .swiper-slide {
-	width: calc(100% - 30vw);
+	width: calc(100% - 30%);
 	height: 100%;
 	overflow: hidden;
 }

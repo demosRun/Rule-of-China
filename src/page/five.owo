@@ -1,22 +1,71 @@
 <template lang="pug">
 .five
   img.soulless.so-3-2.item-2(width="179", height="33", src="@|two-3-2.png|", :tap="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp')")
-  img.soulless.so-3-1.item-1(width="111", height="41", src="@|two-3-1.png|")
-  img.soulless.so-3-0.item-0(width="114", height="41", src="@|two-3-0.png|")
+  img.soulless.so-3-1.item-1(width="111", height="41", src="@|two-3-1.png|", :tap="increaseFontSize()")
+  img.soulless.so-3-0.item-0(width="114", height="41", src="@|two-3-0.png|", :tap="reduceFontSize()")
   img.soulless.so-0-0.item-0(width="247", height="219", src="@|five-0-0.png|")
   img.soulless.so-0-2.item-2(width="192", height="42", src="@|five-0-2.png|", :tap="owo.go('one', 'moveToRight', 'scaleUp', 'moveToLeft', 'scaleUp', true)")
-  img.soulless.so-0-1.item-1(width="227", height="42", src="@|five-0-1.png|", :tap="owo.tool.change('showShare', true)")
-  .share-box(:show="showShare")
+  img.soulless.so-0-1.item-1(width="227", height="42", src="@|five-0-1.png|", :tap="switchShow")
+  .share-box(:tap="switchShow")
     img(src="@|share.png|")
+  p.text-1 一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，把整个生态做得更好，特别要强调对国家经济发展做什么样的贡献，这是“在中国为中国”的核心含义。一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，把整个生态做得更好，特别要强调对国家经济发展做什么样的贡献，这是“在中国为中国”的核心含义。一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，把整个生态做得更好，特别要强调对国家经济发展做什么样的贡献，这是“在中国为中国”的核心含义。一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，把整个生态做得更好，特别要强调对国家经济发展做什么样的贡献，这是“在中国为中国”的核心含义。一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，把整个生态做得更好，特别要强调对国家经济发展做什么样的贡献，这是“在中国为中国”的核心含义。一个企业要把自己的业务可持续发展做好，最要紧的是把整个经济社会，把自己融合在一起，把整个生态做得更好，
+  p.text-2 出品人介绍<br>出品人介绍<br>出品人介绍<br>出品人介绍<br>出品人介绍<br>出品人介绍
 </template>
 
 <script>
   module.exports = {
     data: {
+      fontSize: 1,
       showShare: false
     },
-    created: function () {
-
+    setFontSize: function () {
+      const textPanel = owo.query('.text-1')[0]
+      switch (this.data.fontSize) {
+        case 1:
+          textPanel.style.fontSize = '24px'
+          textPanel.style.lineHeight = '30px'
+          break;
+        case 2:
+          textPanel.style.fontSize = '28px'
+          textPanel.style.lineHeight = '34px'
+          break;
+        case 3:
+          textPanel.style.fontSize = '32px'
+          textPanel.style.lineHeight = '38px'
+          break;
+        case 4:
+          textPanel.style.fontSize = '38px'
+          textPanel.style.lineHeight = '42px'
+          break;
+        default:
+          textPanel.style.fontSize = '24px'
+          textPanel.style.lineHeight = '30px'
+          break;
+      }
+    },
+    increaseFontSize: function () {
+      if (this.data.fontSize < 4) {
+        this.data.fontSize++
+      } else {
+        owo.tool.toast('已经是最大字号了!')
+      }
+      this.setFontSize()
+    },
+    reduceFontSize: function () {
+      if (this.data.fontSize > 1) {
+        this.data.fontSize--
+      } else {
+        owo.tool.toast('已经是最小字号了!')
+      }
+      this.setFontSize()
+    },
+    switchShow: function () {
+      this.showShare = !this.showShare
+      if (this.showShare) {
+        owo.query('.share-box')[0].style.display = 'block'
+      } else {
+        owo.query('.share-box')[0].style.display = 'none'
+      }
     }
   }
 </script>
@@ -48,7 +97,30 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 999;
+}
+.text-1 {
+  position: absolute;
+  width: 250px;
+  height: 220px;
+  overflow: auto;
+  left: 385px;
+  top: 442px;
+  font-size: 24px;
+  line-height: 30px;
+}
+.text-2 {
+  position: absolute;
+  top: 760px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 600px;
+  font-size: 36px;
+  line-height: 58px;
+  text-align: center;
+  overflow: auto;
 }
 </style>

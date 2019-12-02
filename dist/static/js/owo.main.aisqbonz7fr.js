@@ -1,4 +1,216 @@
-// Fri Nov 29 2019 17:10:29 GMT+0800 (GMT+08:00)
+// Mon Dec 02 2019 10:42:38 GMT+0800 (GMT+08:00)
+
+// 存储页面基本信息
+var owo = {
+  // 手机入口
+  phoneEnter: "null",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "one": {
+    "created": function created() {
+      $.ajax({
+        url: 'http://19diaocha.people.cn/20190605/json.php?type=618',
+        dataType: 'jsonp',
+        success: function success(res) {
+          if (res[0]) {
+            owo.query('.praise-num')[0].innerText = res[0].bnum;
+          }
+        }
+      });
+    },
+    "praise": function praise() {
+      $.ajax({
+        url: 'http://littlepoll1.people.com.cn/button/index.php/cip/button/618/61008?',
+        dataType: 'jsonp',
+        jsonp: 'jsonCallback',
+        success: function success(res) {}
+      });
+      setTimeout(function () {
+        owo.query('.praise-num')[0].innerText = Number(owo.query('.praise-num')[0].innerText) + 1
+        owo.tool.toast('点赞成功!');
+      }, 100);
+    }
+  },
+  "two": {
+    "created": function created() {},
+    "template": {
+      "swiper": {
+        "created": function created() {
+          new Swiper('.swiper-container32', {
+            autoplay: true,
+            loop: true,
+            effect: 'coverflow',
+            centeredSlides: true,
+            // slidesPerView: '3',
+            slidesPerView: 'auto',
+            coverflow: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true
+            },
+            pagination: {
+              el: '.pagination32'
+            }
+          });
+        }
+      }
+    }
+  },
+  "swiper": {
+    "created": function created() {
+      new Swiper('.swiper-container32', {
+        autoplay: true,
+        loop: true,
+        effect: 'coverflow',
+        centeredSlides: true,
+        // slidesPerView: '3',
+        slidesPerView: 'auto',
+        coverflow: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true
+        },
+        pagination: {
+          el: '.pagination32'
+        }
+      });
+    }
+  },
+  "three": {
+    "created": function created() {}
+  },
+  "four": {
+    "data": {
+      "fontSize": 1
+    },
+    "created": function created() {},
+    "setFontSize": function setFontSize() {
+      var textPanel = owo.query('p')[0];
+
+      switch (this.data.fontSize) {
+        case 1:
+          textPanel.style.fontSize = '24px';
+          textPanel.style.lineHeight = '30px';
+          break;
+
+        case 2:
+          textPanel.style.fontSize = '28px';
+          textPanel.style.lineHeight = '34px';
+          break;
+
+        case 3:
+          textPanel.style.fontSize = '32px';
+          textPanel.style.lineHeight = '38px';
+          break;
+
+        case 4:
+          textPanel.style.fontSize = '38px';
+          textPanel.style.lineHeight = '42px';
+          break;
+
+        default:
+          textPanel.style.fontSize = '24px';
+          textPanel.style.lineHeight = '30px';
+          break;
+      }
+    },
+    "increaseFontSize": function increaseFontSize() {
+      if (this.data.fontSize < 4) {
+        this.data.fontSize++;
+      } else {
+        owo.tool.toast('已经是最大字号了!');
+      }
+
+      this.setFontSize();
+    },
+    "reduceFontSize": function reduceFontSize() {
+      if (this.data.fontSize > 1) {
+        this.data.fontSize--;
+      } else {
+        owo.tool.toast('已经是最小字号了!');
+      }
+
+      this.setFontSize();
+    }
+  },
+  "five": {
+    "data": {
+      "fontSize": 1,
+      "showShare": false
+    },
+    "setFontSize": function setFontSize() {
+      var textPanel = owo.query('.text-1')[0];
+
+      switch (this.data.fontSize) {
+        case 1:
+          textPanel.style.fontSize = '24px';
+          textPanel.style.lineHeight = '30px';
+          break;
+
+        case 2:
+          textPanel.style.fontSize = '28px';
+          textPanel.style.lineHeight = '34px';
+          break;
+
+        case 3:
+          textPanel.style.fontSize = '32px';
+          textPanel.style.lineHeight = '38px';
+          break;
+
+        case 4:
+          textPanel.style.fontSize = '38px';
+          textPanel.style.lineHeight = '42px';
+          break;
+
+        default:
+          textPanel.style.fontSize = '24px';
+          textPanel.style.lineHeight = '30px';
+          break;
+      }
+    },
+    "increaseFontSize": function increaseFontSize() {
+      if (this.data.fontSize < 4) {
+        this.data.fontSize++;
+      } else {
+        owo.tool.toast('已经是最大字号了!');
+      }
+
+      this.setFontSize();
+    },
+    "reduceFontSize": function reduceFontSize() {
+      if (this.data.fontSize > 1) {
+        this.data.fontSize--;
+      } else {
+        owo.tool.toast('已经是最小字号了!');
+      }
+
+      this.setFontSize();
+    },
+    "switchShow": function switchShow() {
+      this.showShare = !this.showShare;
+
+      if (this.showShare) {
+        owo.query('.share-box')[0].style.display = 'block';
+      } else {
+        owo.query('.share-box')[0].style.display = 'none';
+      }
+    }
+  }
+};
 
 /* 方法合集 */
 var _owo = {}
@@ -363,33 +575,8 @@ owo.tool.toast = function (text, config) {
   }
   window.owo.state.toastClock = setTimeout(hideToast, time)
 }
-/**
- * 改变数据
- * @return {object} 屏幕信息
- */
-
-owo.tool.change = function (key, value) {
-  console.log(key, value)
-}
 
 
-
-
-// 这是用于代码调试的自动刷新代码，他不应该出现在正式上线版本!
-if ("WebSocket" in window) {
-  // 打开一个 web socket
-  if (!window._owo.ws) window._owo.ws = new WebSocket("ws://" + window.location.host)
-  window._owo.ws.onmessage = function (evt) { 
-    if (evt.data == 'reload') {
-      location.reload()
-    }
-  }
-  window._owo.ws.onclose = function() { 
-    console.info('与服务器断开连接')
-  }
-} else {
-  console.error('浏览器不支持WebSocket')
-}
 
 // 切换页面动画
 function animation (oldDom, newDom, animationIn, animationOut, forward) {

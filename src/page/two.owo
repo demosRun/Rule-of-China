@@ -32,18 +32,6 @@
   top: 0px;
   z-index: 1;
 }
-.so-3-1 {
-  position: absolute;
-  left: 436px;
-  top: 181px;
-  z-index: 9;
-}
-.so-3-0 {
-  position: absolute;
-  left: 569px;
-  top: 181px;
-  z-index: 10;
-}
 .so-3-8 {
   position: absolute;
   left: 64px;

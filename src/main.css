@@ -65,3 +65,32 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   top: 1249px;
   z-index: 4;
 }
+.so-3-1 {
+  position: absolute;
+  left: 436px;
+  top: 181px;
+  z-index: 9;
+}
+.so-3-0 {
+  position: absolute;
+  left: 569px;
+  top: 181px;
+  z-index: 10;
+}
+
+.scale-box {
+  overflow: hidden;
+  background-image: url("@|h5-bg.jpg|");
+}
+
+.pc {
+  background-image: url("@|pc-bg.jpg|");
+}
+
+.pc .scale-box {
+  background-image: none;
+}
+
+.pc .five .so-0-1, .pc .five .so-0-2 {
+  display: none;
+}
