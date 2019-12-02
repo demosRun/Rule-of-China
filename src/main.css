@@ -85,6 +85,8 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .pc {
   background-image: url("@|pc-bg.jpg|");
+  background-size: 100% 110%;
+  background-position: center top;
 }
 
 .pc .scale-box {
