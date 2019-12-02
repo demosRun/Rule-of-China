@@ -42,7 +42,6 @@ owo.script = {
     }
   },
   "two": {
-    "created": function created() {},
     "template": {
       "swiper": {
         "created": function created() {
@@ -60,34 +59,16 @@ owo.script = {
               modifier: 1,
               slideShadows: true
             },
+            navigation: {
+              nextEl: '.right-button',
+              prevEl: '.left-button',
+            },
             pagination: {
               el: '.pagination32'
             }
           });
         }
       }
-    }
-  },
-  "swiper": {
-    "created": function created() {
-      new Swiper('.swiper-container32', {
-        autoplay: true,
-        loop: true,
-        effect: 'coverflow',
-        centeredSlides: true,
-        // slidesPerView: '3',
-        slidesPerView: 'auto',
-        coverflow: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true
-        },
-        pagination: {
-          el: '.pagination32'
-        }
-      });
     }
   },
   "three": {
@@ -97,39 +78,32 @@ owo.script = {
     "data": {
       "fontSize": 1
     },
-    "created": function created() {},
     "setFontSize": function setFontSize() {
       var textPanel = owo.query('p')[0];
 
       switch (this.data.fontSize) {
         case 1:
-          textPanel.style.fontSize = '24px';
-          textPanel.style.lineHeight = '30px';
+          textPanel.style.fontSize = '32px';
+          textPanel.style.lineHeight = '48px';
           break;
 
         case 2:
-          textPanel.style.fontSize = '28px';
-          textPanel.style.lineHeight = '34px';
+          textPanel.style.fontSize = '40px';
+          textPanel.style.lineHeight = '58px';
           break;
 
         case 3:
-          textPanel.style.fontSize = '32px';
-          textPanel.style.lineHeight = '38px';
+          textPanel.style.fontSize = '48px';
+          textPanel.style.lineHeight = '68px';
           break;
-
-        case 4:
-          textPanel.style.fontSize = '38px';
-          textPanel.style.lineHeight = '42px';
-          break;
-
         default:
-          textPanel.style.fontSize = '24px';
-          textPanel.style.lineHeight = '30px';
+          textPanel.style.fontSize = '32px';
+          textPanel.style.lineHeight = '48px';
           break;
       }
     },
     "increaseFontSize": function increaseFontSize() {
-      if (this.data.fontSize < 4) {
+      if (this.data.fontSize < 3) {
         this.data.fontSize++;
       } else {
         owo.tool.toast('已经是最大字号了!');
@@ -157,25 +131,19 @@ owo.script = {
 
       switch (this.data.fontSize) {
         case 1:
-          textPanel.style.fontSize = '24px';
-          textPanel.style.lineHeight = '30px';
+          textPanel.style.fontSize = '28px';
+          textPanel.style.lineHeight = '40px';
           break;
 
         case 2:
-          textPanel.style.fontSize = '28px';
-          textPanel.style.lineHeight = '34px';
+          textPanel.style.fontSize = '32px';
+          textPanel.style.lineHeight = '46px';
           break;
 
         case 3:
-          textPanel.style.fontSize = '32px';
-          textPanel.style.lineHeight = '38px';
+          textPanel.style.fontSize = '36px';
+          textPanel.style.lineHeight = '52px';
           break;
-
-        case 4:
-          textPanel.style.fontSize = '38px';
-          textPanel.style.lineHeight = '42px';
-          break;
-
         default:
           textPanel.style.fontSize = '24px';
           textPanel.style.lineHeight = '30px';
@@ -183,7 +151,7 @@ owo.script = {
       }
     },
     "increaseFontSize": function increaseFontSize() {
-      if (this.data.fontSize < 4) {
+      if (this.data.fontSize < 3) {
         this.data.fontSize++;
       } else {
         owo.tool.toast('已经是最大字号了!');
